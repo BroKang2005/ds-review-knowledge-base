@@ -42,8 +42,17 @@ def validate_knowledge_base(kb: dict[str, Any]) -> list[str]:
         problems.append("Duplicate concept id found.")
 
     error_ids = {item.get("error_id") for item in kb.get("errors", [])}
+    atomic_ids = {item.get("id") for item in concepts if item.get("granularity") == "atomic"}
+    allowed_granularity = {"module", "topic", "concept", "atomic"}
 
     for concept in concepts:
+        if concept.get("granularity") not in allowed_granularity:
+            problems.append(f"Concept {concept.get('id')} has invalid granularity {concept.get('granularity')}.")
+        parent_id = concept.get("parent_id")
+        if parent_id and parent_id not in concept_id_set:
+            problems.append(f"Concept {concept.get('id')} has missing parent {parent_id}.")
+        if concept.get("granularity") == "atomic" and not concept.get("diagnosable"):
+            problems.append(f"Atomic concept {concept.get('id')} must be diagnosable.")
         for prerequisite in concept.get("prerequisites", []):
             if prerequisite not in concept_id_set:
                 problems.append(f"Concept {concept.get('id')} has missing prerequisite {prerequisite}.")
@@ -60,6 +69,8 @@ def validate_knowledge_base(kb: dict[str, Any]) -> list[str]:
         for concept_id in question.get("knowledge_points", []):
             if concept_id not in concept_id_set:
                 problems.append(f"Question {question.get('question_id')} references missing concept {concept_id}.")
+            elif concept_id not in atomic_ids:
+                problems.append(f"Question {question.get('question_id')} must reference atomic concept {concept_id}.")
         for error_id in question.get("common_errors", []):
             if error_id not in error_ids:
                 problems.append(f"Question {question.get('question_id')} references missing error {error_id}.")
@@ -68,6 +79,8 @@ def validate_knowledge_base(kb: dict[str, Any]) -> list[str]:
         for concept_id in error.get("related_knowledge", []):
             if concept_id not in concept_id_set:
                 problems.append(f"Error {error.get('error_id')} references missing concept {concept_id}.")
+            elif concept_id not in atomic_ids:
+                problems.append(f"Error {error.get('error_id')} must reference atomic concept {concept_id}.")
 
     return problems
 

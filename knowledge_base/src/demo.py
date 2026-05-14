@@ -20,6 +20,7 @@ def main() -> None:
     kb = load_knowledge_base()
     show("知识库规模", {
         "concepts": len(kb["concepts"]),
+        "atomic_concepts": sum(1 for item in kb["concepts"] if item.get("granularity") == "atomic"),
         "questions": len(kb["questions"]),
         "relations": len(kb["relations"]),
         "errors": len(kb["errors"]),
@@ -35,7 +36,7 @@ def main() -> None:
     queue_question = next(
         question
         for question in kb["questions"]
-        if "DS_STACK_005" in question.get("knowledge_points", [])
+        if "DS_STACK_005_A02" in question.get("knowledge_points", [])
     )
     records = [
         {
@@ -46,7 +47,11 @@ def main() -> None:
         }
     ]
     diagnosis = diagnose_student(kb, records)
-    show("错因诊断", diagnosis)
+    show("根据错题定位到原子知识点", {
+        "wrong_question": queue_question["question_id"],
+        "bound_atomic_points": queue_question["knowledge_points"],
+        "diagnosis": diagnosis,
+    })
 
     plan = generate_review_plan(kb, diagnosis["weak_points"], days=7, daily_limit=2)
     show("7天复习计划", plan)

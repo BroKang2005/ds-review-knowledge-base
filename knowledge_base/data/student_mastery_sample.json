@@ -1,0 +1,482 @@
+[
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_001_A01",
+    "mastery_score": 0.32,
+    "attempt_count": 8,
+    "correct_count": 2,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_001_A02",
+    "mastery_score": 0.55,
+    "attempt_count": 9,
+    "correct_count": 4,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_001_A03",
+    "mastery_score": 0.76,
+    "attempt_count": 10,
+    "correct_count": 7,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_002_A01",
+    "mastery_score": 0.91,
+    "attempt_count": 11,
+    "correct_count": 10,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_002_A02",
+    "mastery_score": 0.32,
+    "attempt_count": 12,
+    "correct_count": 3,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_002_A03",
+    "mastery_score": 0.55,
+    "attempt_count": 13,
+    "correct_count": 7,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_003_A01",
+    "mastery_score": 0.76,
+    "attempt_count": 14,
+    "correct_count": 10,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_003_A02",
+    "mastery_score": 0.91,
+    "attempt_count": 15,
+    "correct_count": 13,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_003_A03",
+    "mastery_score": 0.32,
+    "attempt_count": 16,
+    "correct_count": 5,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_004_A01",
+    "mastery_score": 0.55,
+    "attempt_count": 17,
+    "correct_count": 9,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_004_A02",
+    "mastery_score": 0.76,
+    "attempt_count": 18,
+    "correct_count": 13,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_004_A03",
+    "mastery_score": 0.91,
+    "attempt_count": 19,
+    "correct_count": 17,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_005_A01",
+    "mastery_score": 0.32,
+    "attempt_count": 20,
+    "correct_count": 6,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_005_A02",
+    "mastery_score": 0.55,
+    "attempt_count": 21,
+    "correct_count": 11,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_COMPLEXITY_005_A03",
+    "mastery_score": 0.76,
+    "attempt_count": 22,
+    "correct_count": 16,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_001_A01",
+    "mastery_score": 0.91,
+    "attempt_count": 23,
+    "correct_count": 20,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_001_A02",
+    "mastery_score": 0.32,
+    "attempt_count": 24,
+    "correct_count": 7,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_001_A03",
+    "mastery_score": 0.55,
+    "attempt_count": 25,
+    "correct_count": 13,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_002_A01",
+    "mastery_score": 0.76,
+    "attempt_count": 26,
+    "correct_count": 19,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_002_A02",
+    "mastery_score": 0.91,
+    "attempt_count": 27,
+    "correct_count": 24,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_002_A03",
+    "mastery_score": 0.32,
+    "attempt_count": 28,
+    "correct_count": 8,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_002_A04",
+    "mastery_score": 0.55,
+    "attempt_count": 29,
+    "correct_count": 15,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_003_A01",
+    "mastery_score": 0.76,
+    "attempt_count": 30,
+    "correct_count": 22,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_003_A02",
+    "mastery_score": 0.91,
+    "attempt_count": 31,
+    "correct_count": 28,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_003_A03",
+    "mastery_score": 0.32,
+    "attempt_count": 32,
+    "correct_count": 10,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_004_A01",
+    "mastery_score": 0.55,
+    "attempt_count": 33,
+    "correct_count": 18,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_004_A02",
+    "mastery_score": 0.76,
+    "attempt_count": 34,
+    "correct_count": 25,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_004_A03",
+    "mastery_score": 0.91,
+    "attempt_count": 35,
+    "correct_count": 31,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_005_A01",
+    "mastery_score": 0.32,
+    "attempt_count": 36,
+    "correct_count": 11,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_005_A02",
+    "mastery_score": 0.55,
+    "attempt_count": 37,
+    "correct_count": 20,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_LIST_005_A03",
+    "mastery_score": 0.76,
+    "attempt_count": 38,
+    "correct_count": 28,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_001_A01",
+    "mastery_score": 0.91,
+    "attempt_count": 39,
+    "correct_count": 35,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_001_A02",
+    "mastery_score": 0.32,
+    "attempt_count": 40,
+    "correct_count": 12,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_001_A03",
+    "mastery_score": 0.55,
+    "attempt_count": 41,
+    "correct_count": 22,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_002_A01",
+    "mastery_score": 0.76,
+    "attempt_count": 42,
+    "correct_count": 31,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_002_A02",
+    "mastery_score": 0.91,
+    "attempt_count": 43,
+    "correct_count": 39,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_002_A03",
+    "mastery_score": 0.32,
+    "attempt_count": 44,
+    "correct_count": 14,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_003_A01",
+    "mastery_score": 0.55,
+    "attempt_count": 45,
+    "correct_count": 24,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_003_A02",
+    "mastery_score": 0.76,
+    "attempt_count": 46,
+    "correct_count": 34,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_003_A03",
+    "mastery_score": 0.91,
+    "attempt_count": 47,
+    "correct_count": 42,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_004_A01",
+    "mastery_score": 0.32,
+    "attempt_count": 48,
+    "correct_count": 15,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_004_A02",
+    "mastery_score": 0.55,
+    "attempt_count": 49,
+    "correct_count": 26,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_004_A03",
+    "mastery_score": 0.76,
+    "attempt_count": 50,
+    "correct_count": 38,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_005_A01",
+    "mastery_score": 0.91,
+    "attempt_count": 51,
+    "correct_count": 46,
+    "recent_error_count": 1,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_005_A02",
+    "mastery_score": 0.32,
+    "attempt_count": 52,
+    "correct_count": 16,
+    "recent_error_count": 0,
+    "last_review_time": "2026-05-14",
+    "status": "not_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_005_A03",
+    "mastery_score": 0.55,
+    "attempt_count": 53,
+    "correct_count": 29,
+    "recent_error_count": 4,
+    "last_review_time": "2026-05-14",
+    "status": "partially_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STACK_005_A04",
+    "mastery_score": 0.76,
+    "attempt_count": 54,
+    "correct_count": 41,
+    "recent_error_count": 3,
+    "last_review_time": "2026-05-14",
+    "status": "basically_mastered"
+  },
+  {
+    "student_id": "S001",
+    "knowledge_id": "DS_STRING_001_A01",
+    "mastery_score": 0.91,
+    "attempt_count": 55,
+    "correct_count": 50,
+    "recent_error_count": 2,
+    "last_review_time": "2026-05-14",
+    "status": "mastered"
+  }
+]

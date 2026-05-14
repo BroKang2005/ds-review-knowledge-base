@@ -1,0 +1,4250 @@
+[
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_TOPIC_01",
+    "description": "DS_COMPLEXITY_TOPIC_01 是 DS_COMPLEXITY_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_001",
+    "description": "DS_COMPLEXITY_001 是 DS_COMPLEXITY_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_001_A01",
+    "description": "DS_COMPLEXITY_001_A01 是 DS_COMPLEXITY_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_001_A02",
+    "description": "DS_COMPLEXITY_001_A02 是 DS_COMPLEXITY_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_001_A03",
+    "description": "DS_COMPLEXITY_001_A03 是 DS_COMPLEXITY_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_TOPIC_02",
+    "description": "DS_COMPLEXITY_TOPIC_02 是 DS_COMPLEXITY_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_002",
+    "description": "DS_COMPLEXITY_002 是 DS_COMPLEXITY_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_002_A01",
+    "description": "DS_COMPLEXITY_002_A01 是 DS_COMPLEXITY_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_002_A02",
+    "description": "DS_COMPLEXITY_002_A02 是 DS_COMPLEXITY_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_002_A03",
+    "description": "DS_COMPLEXITY_002_A03 是 DS_COMPLEXITY_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_003",
+    "description": "DS_COMPLEXITY_003 是 DS_COMPLEXITY_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_003_A01",
+    "description": "DS_COMPLEXITY_003_A01 是 DS_COMPLEXITY_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_003_A02",
+    "description": "DS_COMPLEXITY_003_A02 是 DS_COMPLEXITY_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_003_A03",
+    "description": "DS_COMPLEXITY_003_A03 是 DS_COMPLEXITY_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_TOPIC_03",
+    "description": "DS_COMPLEXITY_TOPIC_03 是 DS_COMPLEXITY_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_004",
+    "description": "DS_COMPLEXITY_004 是 DS_COMPLEXITY_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_004_A01",
+    "description": "DS_COMPLEXITY_004_A01 是 DS_COMPLEXITY_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_004_A02",
+    "description": "DS_COMPLEXITY_004_A02 是 DS_COMPLEXITY_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_004_A03",
+    "description": "DS_COMPLEXITY_004_A03 是 DS_COMPLEXITY_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_TOPIC_04",
+    "description": "DS_COMPLEXITY_TOPIC_04 是 DS_COMPLEXITY_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_04",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_005",
+    "description": "DS_COMPLEXITY_005 是 DS_COMPLEXITY_TOPIC_04 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_005_A01",
+    "description": "DS_COMPLEXITY_005_A01 是 DS_COMPLEXITY_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_005_A02",
+    "description": "DS_COMPLEXITY_005_A02 是 DS_COMPLEXITY_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005",
+    "relation": "parent_child",
+    "target": "DS_COMPLEXITY_005_A03",
+    "description": "DS_COMPLEXITY_005_A03 是 DS_COMPLEXITY_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_MODULE",
+    "relation": "parent_child",
+    "target": "DS_LIST_TOPIC_01",
+    "description": "DS_LIST_TOPIC_01 是 DS_LIST_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_LIST_001",
+    "description": "DS_LIST_001 是 DS_LIST_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "parent_child",
+    "target": "DS_LIST_001_A01",
+    "description": "DS_LIST_001_A01 是 DS_LIST_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "parent_child",
+    "target": "DS_LIST_001_A02",
+    "description": "DS_LIST_001_A02 是 DS_LIST_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "parent_child",
+    "target": "DS_LIST_001_A03",
+    "description": "DS_LIST_001_A03 是 DS_LIST_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_MODULE",
+    "relation": "parent_child",
+    "target": "DS_LIST_TOPIC_02",
+    "description": "DS_LIST_TOPIC_02 是 DS_LIST_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_LIST_002",
+    "description": "DS_LIST_002 是 DS_LIST_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "parent_child",
+    "target": "DS_LIST_002_A01",
+    "description": "DS_LIST_002_A01 是 DS_LIST_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "parent_child",
+    "target": "DS_LIST_002_A02",
+    "description": "DS_LIST_002_A02 是 DS_LIST_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "parent_child",
+    "target": "DS_LIST_002_A03",
+    "description": "DS_LIST_002_A03 是 DS_LIST_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "parent_child",
+    "target": "DS_LIST_002_A04",
+    "description": "DS_LIST_002_A04 是 DS_LIST_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_LIST_003",
+    "description": "DS_LIST_003 是 DS_LIST_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "parent_child",
+    "target": "DS_LIST_003_A01",
+    "description": "DS_LIST_003_A01 是 DS_LIST_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "parent_child",
+    "target": "DS_LIST_003_A02",
+    "description": "DS_LIST_003_A02 是 DS_LIST_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "parent_child",
+    "target": "DS_LIST_003_A03",
+    "description": "DS_LIST_003_A03 是 DS_LIST_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_LIST_004",
+    "description": "DS_LIST_004 是 DS_LIST_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "parent_child",
+    "target": "DS_LIST_004_A01",
+    "description": "DS_LIST_004_A01 是 DS_LIST_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "parent_child",
+    "target": "DS_LIST_004_A02",
+    "description": "DS_LIST_004_A02 是 DS_LIST_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "parent_child",
+    "target": "DS_LIST_004_A03",
+    "description": "DS_LIST_004_A03 是 DS_LIST_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_MODULE",
+    "relation": "parent_child",
+    "target": "DS_LIST_TOPIC_03",
+    "description": "DS_LIST_TOPIC_03 是 DS_LIST_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_LIST_005",
+    "description": "DS_LIST_005 是 DS_LIST_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_LIST_005",
+    "relation": "parent_child",
+    "target": "DS_LIST_005_A01",
+    "description": "DS_LIST_005_A01 是 DS_LIST_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_005",
+    "relation": "parent_child",
+    "target": "DS_LIST_005_A02",
+    "description": "DS_LIST_005_A02 是 DS_LIST_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_LIST_005",
+    "relation": "parent_child",
+    "target": "DS_LIST_005_A03",
+    "description": "DS_LIST_005_A03 是 DS_LIST_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_MODULE",
+    "relation": "parent_child",
+    "target": "DS_STACK_TOPIC_01",
+    "description": "DS_STACK_TOPIC_01 是 DS_STACK_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_STACK_001",
+    "description": "DS_STACK_001 是 DS_STACK_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "parent_child",
+    "target": "DS_STACK_001_A01",
+    "description": "DS_STACK_001_A01 是 DS_STACK_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "parent_child",
+    "target": "DS_STACK_001_A02",
+    "description": "DS_STACK_001_A02 是 DS_STACK_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "parent_child",
+    "target": "DS_STACK_001_A03",
+    "description": "DS_STACK_001_A03 是 DS_STACK_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_STACK_002",
+    "description": "DS_STACK_002 是 DS_STACK_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "parent_child",
+    "target": "DS_STACK_002_A01",
+    "description": "DS_STACK_002_A01 是 DS_STACK_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "parent_child",
+    "target": "DS_STACK_002_A02",
+    "description": "DS_STACK_002_A02 是 DS_STACK_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "parent_child",
+    "target": "DS_STACK_002_A03",
+    "description": "DS_STACK_002_A03 是 DS_STACK_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_STACK_003",
+    "description": "DS_STACK_003 是 DS_STACK_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "parent_child",
+    "target": "DS_STACK_003_A01",
+    "description": "DS_STACK_003_A01 是 DS_STACK_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "parent_child",
+    "target": "DS_STACK_003_A02",
+    "description": "DS_STACK_003_A02 是 DS_STACK_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "parent_child",
+    "target": "DS_STACK_003_A03",
+    "description": "DS_STACK_003_A03 是 DS_STACK_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_MODULE",
+    "relation": "parent_child",
+    "target": "DS_STACK_TOPIC_02",
+    "description": "DS_STACK_TOPIC_02 是 DS_STACK_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_STACK_004",
+    "description": "DS_STACK_004 是 DS_STACK_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "parent_child",
+    "target": "DS_STACK_004_A01",
+    "description": "DS_STACK_004_A01 是 DS_STACK_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "parent_child",
+    "target": "DS_STACK_004_A02",
+    "description": "DS_STACK_004_A02 是 DS_STACK_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "parent_child",
+    "target": "DS_STACK_004_A03",
+    "description": "DS_STACK_004_A03 是 DS_STACK_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_STACK_005",
+    "description": "DS_STACK_005 是 DS_STACK_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "parent_child",
+    "target": "DS_STACK_005_A01",
+    "description": "DS_STACK_005_A01 是 DS_STACK_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "parent_child",
+    "target": "DS_STACK_005_A02",
+    "description": "DS_STACK_005_A02 是 DS_STACK_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "parent_child",
+    "target": "DS_STACK_005_A03",
+    "description": "DS_STACK_005_A03 是 DS_STACK_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "parent_child",
+    "target": "DS_STACK_005_A04",
+    "description": "DS_STACK_005_A04 是 DS_STACK_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_MODULE",
+    "relation": "parent_child",
+    "target": "DS_STRING_TOPIC_01",
+    "description": "DS_STRING_TOPIC_01 是 DS_STRING_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_STRING_001",
+    "description": "DS_STRING_001 是 DS_STRING_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "parent_child",
+    "target": "DS_STRING_001_A01",
+    "description": "DS_STRING_001_A01 是 DS_STRING_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "parent_child",
+    "target": "DS_STRING_001_A02",
+    "description": "DS_STRING_001_A02 是 DS_STRING_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "parent_child",
+    "target": "DS_STRING_001_A03",
+    "description": "DS_STRING_001_A03 是 DS_STRING_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_STRING_002",
+    "description": "DS_STRING_002 是 DS_STRING_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "parent_child",
+    "target": "DS_STRING_002_A01",
+    "description": "DS_STRING_002_A01 是 DS_STRING_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "parent_child",
+    "target": "DS_STRING_002_A02",
+    "description": "DS_STRING_002_A02 是 DS_STRING_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "parent_child",
+    "target": "DS_STRING_002_A03",
+    "description": "DS_STRING_002_A03 是 DS_STRING_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_MODULE",
+    "relation": "parent_child",
+    "target": "DS_STRING_TOPIC_02",
+    "description": "DS_STRING_TOPIC_02 是 DS_STRING_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_STRING_003",
+    "description": "DS_STRING_003 是 DS_STRING_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "parent_child",
+    "target": "DS_STRING_003_A01",
+    "description": "DS_STRING_003_A01 是 DS_STRING_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "parent_child",
+    "target": "DS_STRING_003_A02",
+    "description": "DS_STRING_003_A02 是 DS_STRING_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "parent_child",
+    "target": "DS_STRING_003_A03",
+    "description": "DS_STRING_003_A03 是 DS_STRING_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_STRING_004",
+    "description": "DS_STRING_004 是 DS_STRING_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "parent_child",
+    "target": "DS_STRING_004_A01",
+    "description": "DS_STRING_004_A01 是 DS_STRING_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "parent_child",
+    "target": "DS_STRING_004_A02",
+    "description": "DS_STRING_004_A02 是 DS_STRING_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "parent_child",
+    "target": "DS_STRING_004_A03",
+    "description": "DS_STRING_004_A03 是 DS_STRING_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_MODULE",
+    "relation": "parent_child",
+    "target": "DS_STRING_TOPIC_03",
+    "description": "DS_STRING_TOPIC_03 是 DS_STRING_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_STRING_005",
+    "description": "DS_STRING_005 是 DS_STRING_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_STRING_005",
+    "relation": "parent_child",
+    "target": "DS_STRING_005_A01",
+    "description": "DS_STRING_005_A01 是 DS_STRING_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_005",
+    "relation": "parent_child",
+    "target": "DS_STRING_005_A02",
+    "description": "DS_STRING_005_A02 是 DS_STRING_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_STRING_005",
+    "relation": "parent_child",
+    "target": "DS_STRING_005_A03",
+    "description": "DS_STRING_005_A03 是 DS_STRING_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "parent_child",
+    "target": "DS_TREE_TOPIC_01",
+    "description": "DS_TREE_TOPIC_01 是 DS_TREE_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_TREE_001",
+    "description": "DS_TREE_001 是 DS_TREE_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "parent_child",
+    "target": "DS_TREE_001_A01",
+    "description": "DS_TREE_001_A01 是 DS_TREE_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "parent_child",
+    "target": "DS_TREE_001_A02",
+    "description": "DS_TREE_001_A02 是 DS_TREE_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "parent_child",
+    "target": "DS_TREE_001_A03",
+    "description": "DS_TREE_001_A03 是 DS_TREE_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "parent_child",
+    "target": "DS_TREE_001_A04",
+    "description": "DS_TREE_001_A04 是 DS_TREE_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "parent_child",
+    "target": "DS_TREE_TOPIC_02",
+    "description": "DS_TREE_TOPIC_02 是 DS_TREE_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_TREE_002",
+    "description": "DS_TREE_002 是 DS_TREE_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "parent_child",
+    "target": "DS_TREE_002_A01",
+    "description": "DS_TREE_002_A01 是 DS_TREE_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "parent_child",
+    "target": "DS_TREE_002_A02",
+    "description": "DS_TREE_002_A02 是 DS_TREE_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "parent_child",
+    "target": "DS_TREE_002_A03",
+    "description": "DS_TREE_002_A03 是 DS_TREE_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "parent_child",
+    "target": "DS_TREE_002_A04",
+    "description": "DS_TREE_002_A04 是 DS_TREE_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_TREE_003",
+    "description": "DS_TREE_003 是 DS_TREE_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "parent_child",
+    "target": "DS_TREE_003_A01",
+    "description": "DS_TREE_003_A01 是 DS_TREE_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "parent_child",
+    "target": "DS_TREE_003_A02",
+    "description": "DS_TREE_003_A02 是 DS_TREE_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "parent_child",
+    "target": "DS_TREE_003_A03",
+    "description": "DS_TREE_003_A03 是 DS_TREE_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "parent_child",
+    "target": "DS_TREE_003_A04",
+    "description": "DS_TREE_003_A04 是 DS_TREE_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "parent_child",
+    "target": "DS_TREE_TOPIC_03",
+    "description": "DS_TREE_TOPIC_03 是 DS_TREE_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_TREE_004",
+    "description": "DS_TREE_004 是 DS_TREE_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "parent_child",
+    "target": "DS_TREE_004_A01",
+    "description": "DS_TREE_004_A01 是 DS_TREE_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "parent_child",
+    "target": "DS_TREE_004_A02",
+    "description": "DS_TREE_004_A02 是 DS_TREE_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "parent_child",
+    "target": "DS_TREE_004_A03",
+    "description": "DS_TREE_004_A03 是 DS_TREE_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "parent_child",
+    "target": "DS_TREE_TOPIC_04",
+    "description": "DS_TREE_TOPIC_04 是 DS_TREE_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_04",
+    "relation": "parent_child",
+    "target": "DS_TREE_005",
+    "description": "DS_TREE_005 是 DS_TREE_TOPIC_04 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_TREE_005",
+    "relation": "parent_child",
+    "target": "DS_TREE_005_A01",
+    "description": "DS_TREE_005_A01 是 DS_TREE_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_005",
+    "relation": "parent_child",
+    "target": "DS_TREE_005_A02",
+    "description": "DS_TREE_005_A02 是 DS_TREE_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_TREE_005",
+    "relation": "parent_child",
+    "target": "DS_TREE_005_A03",
+    "description": "DS_TREE_005_A03 是 DS_TREE_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_TOPIC_01",
+    "description": "DS_GRAPH_TOPIC_01 是 DS_GRAPH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_001",
+    "description": "DS_GRAPH_001 是 DS_GRAPH_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_001_A01",
+    "description": "DS_GRAPH_001_A01 是 DS_GRAPH_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_001_A02",
+    "description": "DS_GRAPH_001_A02 是 DS_GRAPH_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_001_A03",
+    "description": "DS_GRAPH_001_A03 是 DS_GRAPH_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_TOPIC_02",
+    "description": "DS_GRAPH_TOPIC_02 是 DS_GRAPH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_002",
+    "description": "DS_GRAPH_002 是 DS_GRAPH_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_002_A01",
+    "description": "DS_GRAPH_002_A01 是 DS_GRAPH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_002_A02",
+    "description": "DS_GRAPH_002_A02 是 DS_GRAPH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_002_A03",
+    "description": "DS_GRAPH_002_A03 是 DS_GRAPH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_002_A04",
+    "description": "DS_GRAPH_002_A04 是 DS_GRAPH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_003",
+    "description": "DS_GRAPH_003 是 DS_GRAPH_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_003_A01",
+    "description": "DS_GRAPH_003_A01 是 DS_GRAPH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_003_A02",
+    "description": "DS_GRAPH_003_A02 是 DS_GRAPH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_003_A03",
+    "description": "DS_GRAPH_003_A03 是 DS_GRAPH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_003_A04",
+    "description": "DS_GRAPH_003_A04 是 DS_GRAPH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_TOPIC_03",
+    "description": "DS_GRAPH_TOPIC_03 是 DS_GRAPH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_004",
+    "description": "DS_GRAPH_004 是 DS_GRAPH_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_004_A01",
+    "description": "DS_GRAPH_004_A01 是 DS_GRAPH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_004_A02",
+    "description": "DS_GRAPH_004_A02 是 DS_GRAPH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_004_A03",
+    "description": "DS_GRAPH_004_A03 是 DS_GRAPH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_004_A04",
+    "description": "DS_GRAPH_004_A04 是 DS_GRAPH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_005",
+    "description": "DS_GRAPH_005 是 DS_GRAPH_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_005_A01",
+    "description": "DS_GRAPH_005_A01 是 DS_GRAPH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_005_A02",
+    "description": "DS_GRAPH_005_A02 是 DS_GRAPH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_005_A03",
+    "description": "DS_GRAPH_005_A03 是 DS_GRAPH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "parent_child",
+    "target": "DS_GRAPH_005_A04",
+    "description": "DS_GRAPH_005_A04 是 DS_GRAPH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_TOPIC_01",
+    "description": "DS_SEARCH_TOPIC_01 是 DS_SEARCH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_001",
+    "description": "DS_SEARCH_001 是 DS_SEARCH_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_001_A01",
+    "description": "DS_SEARCH_001_A01 是 DS_SEARCH_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_001_A02",
+    "description": "DS_SEARCH_001_A02 是 DS_SEARCH_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_001_A03",
+    "description": "DS_SEARCH_001_A03 是 DS_SEARCH_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_TOPIC_02",
+    "description": "DS_SEARCH_TOPIC_02 是 DS_SEARCH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_002",
+    "description": "DS_SEARCH_002 是 DS_SEARCH_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_002_A01",
+    "description": "DS_SEARCH_002_A01 是 DS_SEARCH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_002_A02",
+    "description": "DS_SEARCH_002_A02 是 DS_SEARCH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_002_A03",
+    "description": "DS_SEARCH_002_A03 是 DS_SEARCH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_002_A04",
+    "description": "DS_SEARCH_002_A04 是 DS_SEARCH_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_TOPIC_03",
+    "description": "DS_SEARCH_TOPIC_03 是 DS_SEARCH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_003",
+    "description": "DS_SEARCH_003 是 DS_SEARCH_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_003_A01",
+    "description": "DS_SEARCH_003_A01 是 DS_SEARCH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_003_A02",
+    "description": "DS_SEARCH_003_A02 是 DS_SEARCH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_003_A03",
+    "description": "DS_SEARCH_003_A03 是 DS_SEARCH_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_004",
+    "description": "DS_SEARCH_004 是 DS_SEARCH_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_004_A01",
+    "description": "DS_SEARCH_004_A01 是 DS_SEARCH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_004_A02",
+    "description": "DS_SEARCH_004_A02 是 DS_SEARCH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_004_A03",
+    "description": "DS_SEARCH_004_A03 是 DS_SEARCH_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_TOPIC_04",
+    "description": "DS_SEARCH_TOPIC_04 是 DS_SEARCH_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_04",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_005",
+    "description": "DS_SEARCH_005 是 DS_SEARCH_TOPIC_04 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_005_A01",
+    "description": "DS_SEARCH_005_A01 是 DS_SEARCH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_005_A02",
+    "description": "DS_SEARCH_005_A02 是 DS_SEARCH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_005_A03",
+    "description": "DS_SEARCH_005_A03 是 DS_SEARCH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "parent_child",
+    "target": "DS_SEARCH_005_A04",
+    "description": "DS_SEARCH_005_A04 是 DS_SEARCH_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SORT_TOPIC_01",
+    "description": "DS_SORT_TOPIC_01 是 DS_SORT_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_01",
+    "relation": "parent_child",
+    "target": "DS_SORT_001",
+    "description": "DS_SORT_001 是 DS_SORT_TOPIC_01 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "parent_child",
+    "target": "DS_SORT_001_A01",
+    "description": "DS_SORT_001_A01 是 DS_SORT_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "parent_child",
+    "target": "DS_SORT_001_A02",
+    "description": "DS_SORT_001_A02 是 DS_SORT_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "parent_child",
+    "target": "DS_SORT_001_A03",
+    "description": "DS_SORT_001_A03 是 DS_SORT_001 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SORT_TOPIC_02",
+    "description": "DS_SORT_TOPIC_02 是 DS_SORT_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_02",
+    "relation": "parent_child",
+    "target": "DS_SORT_002",
+    "description": "DS_SORT_002 是 DS_SORT_TOPIC_02 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "parent_child",
+    "target": "DS_SORT_002_A01",
+    "description": "DS_SORT_002_A01 是 DS_SORT_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "parent_child",
+    "target": "DS_SORT_002_A02",
+    "description": "DS_SORT_002_A02 是 DS_SORT_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "parent_child",
+    "target": "DS_SORT_002_A03",
+    "description": "DS_SORT_002_A03 是 DS_SORT_002 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SORT_TOPIC_03",
+    "description": "DS_SORT_TOPIC_03 是 DS_SORT_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_03",
+    "relation": "parent_child",
+    "target": "DS_SORT_003",
+    "description": "DS_SORT_003 是 DS_SORT_TOPIC_03 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "parent_child",
+    "target": "DS_SORT_003_A01",
+    "description": "DS_SORT_003_A01 是 DS_SORT_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "parent_child",
+    "target": "DS_SORT_003_A02",
+    "description": "DS_SORT_003_A02 是 DS_SORT_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "parent_child",
+    "target": "DS_SORT_003_A03",
+    "description": "DS_SORT_003_A03 是 DS_SORT_003 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SORT_TOPIC_04",
+    "description": "DS_SORT_TOPIC_04 是 DS_SORT_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_04",
+    "relation": "parent_child",
+    "target": "DS_SORT_004",
+    "description": "DS_SORT_004 是 DS_SORT_TOPIC_04 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "parent_child",
+    "target": "DS_SORT_004_A01",
+    "description": "DS_SORT_004_A01 是 DS_SORT_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "parent_child",
+    "target": "DS_SORT_004_A02",
+    "description": "DS_SORT_004_A02 是 DS_SORT_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "parent_child",
+    "target": "DS_SORT_004_A03",
+    "description": "DS_SORT_004_A03 是 DS_SORT_004 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "parent_child",
+    "target": "DS_SORT_TOPIC_05",
+    "description": "DS_SORT_TOPIC_05 是 DS_SORT_MODULE 下的topic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_05",
+    "relation": "parent_child",
+    "target": "DS_SORT_005",
+    "description": "DS_SORT_005 是 DS_SORT_TOPIC_05 下的concept粒度节点。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "parent_child",
+    "target": "DS_SORT_005_A01",
+    "description": "DS_SORT_005_A01 是 DS_SORT_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "parent_child",
+    "target": "DS_SORT_005_A02",
+    "description": "DS_SORT_005_A02 是 DS_SORT_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "parent_child",
+    "target": "DS_SORT_005_A03",
+    "description": "DS_SORT_005_A03 是 DS_SORT_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "parent_child",
+    "target": "DS_SORT_005_A04",
+    "description": "DS_SORT_005_A04 是 DS_SORT_005 下的atomic粒度节点。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_TOPIC_01",
+    "description": "DS_COMPLEXITY_MODULE 是学习 DS_COMPLEXITY_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_001",
+    "description": "DS_COMPLEXITY_TOPIC_01 是学习 DS_COMPLEXITY_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_001_A01",
+    "description": "DS_COMPLEXITY_001 是学习 DS_COMPLEXITY_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_001_A02",
+    "description": "DS_COMPLEXITY_001 是学习 DS_COMPLEXITY_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_001_A02",
+    "description": "DS_COMPLEXITY_001_A01 是学习 DS_COMPLEXITY_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_001_A03",
+    "description": "DS_COMPLEXITY_001 是学习 DS_COMPLEXITY_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_001_A03",
+    "description": "DS_COMPLEXITY_001_A02 是学习 DS_COMPLEXITY_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_TOPIC_02",
+    "description": "DS_COMPLEXITY_MODULE 是学习 DS_COMPLEXITY_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002",
+    "description": "DS_COMPLEXITY_TOPIC_02 是学习 DS_COMPLEXITY_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002",
+    "description": "DS_COMPLEXITY_001 是学习 DS_COMPLEXITY_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002_A01",
+    "description": "DS_COMPLEXITY_002 是学习 DS_COMPLEXITY_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002_A02",
+    "description": "DS_COMPLEXITY_002 是学习 DS_COMPLEXITY_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002_A02",
+    "description": "DS_COMPLEXITY_002_A01 是学习 DS_COMPLEXITY_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002_A03",
+    "description": "DS_COMPLEXITY_002 是学习 DS_COMPLEXITY_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_002_A03",
+    "description": "DS_COMPLEXITY_002_A02 是学习 DS_COMPLEXITY_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003",
+    "description": "DS_COMPLEXITY_TOPIC_02 是学习 DS_COMPLEXITY_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003",
+    "description": "DS_COMPLEXITY_002 是学习 DS_COMPLEXITY_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003_A01",
+    "description": "DS_COMPLEXITY_003 是学习 DS_COMPLEXITY_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003_A02",
+    "description": "DS_COMPLEXITY_003 是学习 DS_COMPLEXITY_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003_A02",
+    "description": "DS_COMPLEXITY_003_A01 是学习 DS_COMPLEXITY_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003_A03",
+    "description": "DS_COMPLEXITY_003 是学习 DS_COMPLEXITY_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_003_A03",
+    "description": "DS_COMPLEXITY_003_A02 是学习 DS_COMPLEXITY_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_TOPIC_03",
+    "description": "DS_COMPLEXITY_MODULE 是学习 DS_COMPLEXITY_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004",
+    "description": "DS_COMPLEXITY_TOPIC_03 是学习 DS_COMPLEXITY_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004",
+    "description": "DS_COMPLEXITY_003 是学习 DS_COMPLEXITY_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004_A01",
+    "description": "DS_COMPLEXITY_004 是学习 DS_COMPLEXITY_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004_A02",
+    "description": "DS_COMPLEXITY_004 是学习 DS_COMPLEXITY_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004_A02",
+    "description": "DS_COMPLEXITY_004_A01 是学习 DS_COMPLEXITY_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004_A03",
+    "description": "DS_COMPLEXITY_004 是学习 DS_COMPLEXITY_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_004_A03",
+    "description": "DS_COMPLEXITY_004_A02 是学习 DS_COMPLEXITY_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_TOPIC_04",
+    "description": "DS_COMPLEXITY_MODULE 是学习 DS_COMPLEXITY_TOPIC_04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_TOPIC_04",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005",
+    "description": "DS_COMPLEXITY_TOPIC_04 是学习 DS_COMPLEXITY_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005",
+    "description": "DS_COMPLEXITY_004 是学习 DS_COMPLEXITY_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005_A01",
+    "description": "DS_COMPLEXITY_005 是学习 DS_COMPLEXITY_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005_A02",
+    "description": "DS_COMPLEXITY_005 是学习 DS_COMPLEXITY_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005_A02",
+    "description": "DS_COMPLEXITY_005_A01 是学习 DS_COMPLEXITY_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005_A03",
+    "description": "DS_COMPLEXITY_005 是学习 DS_COMPLEXITY_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_COMPLEXITY_005_A03",
+    "description": "DS_COMPLEXITY_005_A02 是学习 DS_COMPLEXITY_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_LIST_TOPIC_01",
+    "description": "DS_LIST_MODULE 是学习 DS_LIST_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_LIST_001",
+    "description": "DS_LIST_TOPIC_01 是学习 DS_LIST_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "prerequisite",
+    "target": "DS_LIST_001_A01",
+    "description": "DS_LIST_001 是学习 DS_LIST_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "prerequisite",
+    "target": "DS_LIST_001_A02",
+    "description": "DS_LIST_001 是学习 DS_LIST_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_LIST_001_A02",
+    "description": "DS_LIST_001_A01 是学习 DS_LIST_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "prerequisite",
+    "target": "DS_LIST_001_A03",
+    "description": "DS_LIST_001 是学习 DS_LIST_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_001_A03",
+    "description": "DS_LIST_001_A02 是学习 DS_LIST_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_LIST_TOPIC_02",
+    "description": "DS_LIST_MODULE 是学习 DS_LIST_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002",
+    "description": "DS_LIST_TOPIC_02 是学习 DS_LIST_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002",
+    "description": "DS_LIST_001 是学习 DS_LIST_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A01",
+    "description": "DS_LIST_002 是学习 DS_LIST_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A02",
+    "description": "DS_LIST_002 是学习 DS_LIST_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A02",
+    "description": "DS_LIST_002_A01 是学习 DS_LIST_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A03",
+    "description": "DS_LIST_002 是学习 DS_LIST_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A03",
+    "description": "DS_LIST_002_A02 是学习 DS_LIST_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A04",
+    "description": "DS_LIST_002 是学习 DS_LIST_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002_A03",
+    "relation": "prerequisite",
+    "target": "DS_LIST_002_A04",
+    "description": "DS_LIST_002_A03 是学习 DS_LIST_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003",
+    "description": "DS_LIST_TOPIC_02 是学习 DS_LIST_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_002",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003",
+    "description": "DS_LIST_002 是学习 DS_LIST_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003_A01",
+    "description": "DS_LIST_003 是学习 DS_LIST_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003_A02",
+    "description": "DS_LIST_003 是学习 DS_LIST_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003_A02",
+    "description": "DS_LIST_003_A01 是学习 DS_LIST_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003_A03",
+    "description": "DS_LIST_003 是学习 DS_LIST_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_003_A03",
+    "description": "DS_LIST_003_A02 是学习 DS_LIST_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004",
+    "description": "DS_LIST_TOPIC_02 是学习 DS_LIST_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_003",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004",
+    "description": "DS_LIST_003 是学习 DS_LIST_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004_A01",
+    "description": "DS_LIST_004 是学习 DS_LIST_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004_A02",
+    "description": "DS_LIST_004 是学习 DS_LIST_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004_A02",
+    "description": "DS_LIST_004_A01 是学习 DS_LIST_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004_A03",
+    "description": "DS_LIST_004 是学习 DS_LIST_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_004_A03",
+    "description": "DS_LIST_004_A02 是学习 DS_LIST_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_LIST_TOPIC_03",
+    "description": "DS_LIST_MODULE 是学习 DS_LIST_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005",
+    "description": "DS_LIST_TOPIC_03 是学习 DS_LIST_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_004",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005",
+    "description": "DS_LIST_004 是学习 DS_LIST_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_005",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005_A01",
+    "description": "DS_LIST_005 是学习 DS_LIST_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_005",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005_A02",
+    "description": "DS_LIST_005 是学习 DS_LIST_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005_A02",
+    "description": "DS_LIST_005_A01 是学习 DS_LIST_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_005",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005_A03",
+    "description": "DS_LIST_005 是学习 DS_LIST_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_LIST_005_A03",
+    "description": "DS_LIST_005_A02 是学习 DS_LIST_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_STACK_TOPIC_01",
+    "description": "DS_STACK_MODULE 是学习 DS_STACK_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_001",
+    "description": "DS_STACK_TOPIC_01 是学习 DS_STACK_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "prerequisite",
+    "target": "DS_STACK_001_A01",
+    "description": "DS_STACK_001 是学习 DS_STACK_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "prerequisite",
+    "target": "DS_STACK_001_A02",
+    "description": "DS_STACK_001 是学习 DS_STACK_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_001_A02",
+    "description": "DS_STACK_001_A01 是学习 DS_STACK_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "prerequisite",
+    "target": "DS_STACK_001_A03",
+    "description": "DS_STACK_001 是学习 DS_STACK_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_001_A03",
+    "description": "DS_STACK_001_A02 是学习 DS_STACK_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002",
+    "description": "DS_STACK_TOPIC_01 是学习 DS_STACK_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_001",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002",
+    "description": "DS_STACK_001 是学习 DS_STACK_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002_A01",
+    "description": "DS_STACK_002 是学习 DS_STACK_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002_A02",
+    "description": "DS_STACK_002 是学习 DS_STACK_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002_A02",
+    "description": "DS_STACK_002_A01 是学习 DS_STACK_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002_A03",
+    "description": "DS_STACK_002 是学习 DS_STACK_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_002_A03",
+    "description": "DS_STACK_002_A02 是学习 DS_STACK_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003",
+    "description": "DS_STACK_TOPIC_01 是学习 DS_STACK_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_002",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003",
+    "description": "DS_STACK_002 是学习 DS_STACK_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003_A01",
+    "description": "DS_STACK_003 是学习 DS_STACK_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003_A02",
+    "description": "DS_STACK_003 是学习 DS_STACK_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003_A02",
+    "description": "DS_STACK_003_A01 是学习 DS_STACK_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003_A03",
+    "description": "DS_STACK_003 是学习 DS_STACK_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_003_A03",
+    "description": "DS_STACK_003_A02 是学习 DS_STACK_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_STACK_TOPIC_02",
+    "description": "DS_STACK_MODULE 是学习 DS_STACK_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004",
+    "description": "DS_STACK_TOPIC_02 是学习 DS_STACK_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_003",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004",
+    "description": "DS_STACK_003 是学习 DS_STACK_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004_A01",
+    "description": "DS_STACK_004 是学习 DS_STACK_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004_A02",
+    "description": "DS_STACK_004 是学习 DS_STACK_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004_A02",
+    "description": "DS_STACK_004_A01 是学习 DS_STACK_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004_A03",
+    "description": "DS_STACK_004 是学习 DS_STACK_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_004_A03",
+    "description": "DS_STACK_004_A02 是学习 DS_STACK_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005",
+    "description": "DS_STACK_TOPIC_02 是学习 DS_STACK_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_004",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005",
+    "description": "DS_STACK_004 是学习 DS_STACK_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A01",
+    "description": "DS_STACK_005 是学习 DS_STACK_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A02",
+    "description": "DS_STACK_005 是学习 DS_STACK_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A02",
+    "description": "DS_STACK_005_A01 是学习 DS_STACK_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A03",
+    "description": "DS_STACK_005 是学习 DS_STACK_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A03",
+    "description": "DS_STACK_005_A02 是学习 DS_STACK_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A04",
+    "description": "DS_STACK_005 是学习 DS_STACK_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STACK_005_A03",
+    "relation": "prerequisite",
+    "target": "DS_STACK_005_A04",
+    "description": "DS_STACK_005_A03 是学习 DS_STACK_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_STRING_TOPIC_01",
+    "description": "DS_STRING_MODULE 是学习 DS_STRING_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_001",
+    "description": "DS_STRING_TOPIC_01 是学习 DS_STRING_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "prerequisite",
+    "target": "DS_STRING_001_A01",
+    "description": "DS_STRING_001 是学习 DS_STRING_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "prerequisite",
+    "target": "DS_STRING_001_A02",
+    "description": "DS_STRING_001 是学习 DS_STRING_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_001_A02",
+    "description": "DS_STRING_001_A01 是学习 DS_STRING_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "prerequisite",
+    "target": "DS_STRING_001_A03",
+    "description": "DS_STRING_001 是学习 DS_STRING_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_001_A03",
+    "description": "DS_STRING_001_A02 是学习 DS_STRING_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002",
+    "description": "DS_STRING_TOPIC_01 是学习 DS_STRING_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_001",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002",
+    "description": "DS_STRING_001 是学习 DS_STRING_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002_A01",
+    "description": "DS_STRING_002 是学习 DS_STRING_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002_A02",
+    "description": "DS_STRING_002 是学习 DS_STRING_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002_A02",
+    "description": "DS_STRING_002_A01 是学习 DS_STRING_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002_A03",
+    "description": "DS_STRING_002 是学习 DS_STRING_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_002_A03",
+    "description": "DS_STRING_002_A02 是学习 DS_STRING_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_STRING_TOPIC_02",
+    "description": "DS_STRING_MODULE 是学习 DS_STRING_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003",
+    "description": "DS_STRING_TOPIC_02 是学习 DS_STRING_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_002",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003",
+    "description": "DS_STRING_002 是学习 DS_STRING_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003_A01",
+    "description": "DS_STRING_003 是学习 DS_STRING_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003_A02",
+    "description": "DS_STRING_003 是学习 DS_STRING_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003_A02",
+    "description": "DS_STRING_003_A01 是学习 DS_STRING_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003_A03",
+    "description": "DS_STRING_003 是学习 DS_STRING_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_003_A03",
+    "description": "DS_STRING_003_A02 是学习 DS_STRING_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004",
+    "description": "DS_STRING_TOPIC_02 是学习 DS_STRING_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_003",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004",
+    "description": "DS_STRING_003 是学习 DS_STRING_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004_A01",
+    "description": "DS_STRING_004 是学习 DS_STRING_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004_A02",
+    "description": "DS_STRING_004 是学习 DS_STRING_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004_A02",
+    "description": "DS_STRING_004_A01 是学习 DS_STRING_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004_A03",
+    "description": "DS_STRING_004 是学习 DS_STRING_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_004_A03",
+    "description": "DS_STRING_004_A02 是学习 DS_STRING_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_STRING_TOPIC_03",
+    "description": "DS_STRING_MODULE 是学习 DS_STRING_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005",
+    "description": "DS_STRING_TOPIC_03 是学习 DS_STRING_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_004",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005",
+    "description": "DS_STRING_004 是学习 DS_STRING_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_005",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005_A01",
+    "description": "DS_STRING_005 是学习 DS_STRING_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_005",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005_A02",
+    "description": "DS_STRING_005 是学习 DS_STRING_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005_A02",
+    "description": "DS_STRING_005_A01 是学习 DS_STRING_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_005",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005_A03",
+    "description": "DS_STRING_005 是学习 DS_STRING_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_STRING_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_STRING_005_A03",
+    "description": "DS_STRING_005_A02 是学习 DS_STRING_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_TREE_TOPIC_01",
+    "description": "DS_TREE_MODULE 是学习 DS_TREE_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001",
+    "description": "DS_TREE_TOPIC_01 是学习 DS_TREE_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A01",
+    "description": "DS_TREE_001 是学习 DS_TREE_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A02",
+    "description": "DS_TREE_001 是学习 DS_TREE_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A02",
+    "description": "DS_TREE_001_A01 是学习 DS_TREE_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A03",
+    "description": "DS_TREE_001 是学习 DS_TREE_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A03",
+    "description": "DS_TREE_001_A02 是学习 DS_TREE_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A04",
+    "description": "DS_TREE_001 是学习 DS_TREE_001_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001_A03",
+    "relation": "prerequisite",
+    "target": "DS_TREE_001_A04",
+    "description": "DS_TREE_001_A03 是学习 DS_TREE_001_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_TREE_TOPIC_02",
+    "description": "DS_TREE_MODULE 是学习 DS_TREE_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002",
+    "description": "DS_TREE_TOPIC_02 是学习 DS_TREE_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_001",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002",
+    "description": "DS_TREE_001 是学习 DS_TREE_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A01",
+    "description": "DS_TREE_002 是学习 DS_TREE_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A02",
+    "description": "DS_TREE_002 是学习 DS_TREE_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A02",
+    "description": "DS_TREE_002_A01 是学习 DS_TREE_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A03",
+    "description": "DS_TREE_002 是学习 DS_TREE_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A03",
+    "description": "DS_TREE_002_A02 是学习 DS_TREE_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A04",
+    "description": "DS_TREE_002 是学习 DS_TREE_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002_A03",
+    "relation": "prerequisite",
+    "target": "DS_TREE_002_A04",
+    "description": "DS_TREE_002_A03 是学习 DS_TREE_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003",
+    "description": "DS_TREE_TOPIC_02 是学习 DS_TREE_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_002",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003",
+    "description": "DS_TREE_002 是学习 DS_TREE_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A01",
+    "description": "DS_TREE_003 是学习 DS_TREE_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A02",
+    "description": "DS_TREE_003 是学习 DS_TREE_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A02",
+    "description": "DS_TREE_003_A01 是学习 DS_TREE_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A03",
+    "description": "DS_TREE_003 是学习 DS_TREE_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A03",
+    "description": "DS_TREE_003_A02 是学习 DS_TREE_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A04",
+    "description": "DS_TREE_003 是学习 DS_TREE_003_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003_A03",
+    "relation": "prerequisite",
+    "target": "DS_TREE_003_A04",
+    "description": "DS_TREE_003_A03 是学习 DS_TREE_003_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_TREE_TOPIC_03",
+    "description": "DS_TREE_MODULE 是学习 DS_TREE_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004",
+    "description": "DS_TREE_TOPIC_03 是学习 DS_TREE_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_003",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004",
+    "description": "DS_TREE_003 是学习 DS_TREE_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004_A01",
+    "description": "DS_TREE_004 是学习 DS_TREE_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004_A02",
+    "description": "DS_TREE_004 是学习 DS_TREE_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004_A02",
+    "description": "DS_TREE_004_A01 是学习 DS_TREE_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004_A03",
+    "description": "DS_TREE_004 是学习 DS_TREE_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_004_A03",
+    "description": "DS_TREE_004_A02 是学习 DS_TREE_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_TREE_TOPIC_04",
+    "description": "DS_TREE_MODULE 是学习 DS_TREE_TOPIC_04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_TOPIC_04",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005",
+    "description": "DS_TREE_TOPIC_04 是学习 DS_TREE_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_004",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005",
+    "description": "DS_TREE_004 是学习 DS_TREE_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_005",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005_A01",
+    "description": "DS_TREE_005 是学习 DS_TREE_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_005",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005_A02",
+    "description": "DS_TREE_005 是学习 DS_TREE_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005_A02",
+    "description": "DS_TREE_005_A01 是学习 DS_TREE_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_005",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005_A03",
+    "description": "DS_TREE_005 是学习 DS_TREE_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_TREE_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_TREE_005_A03",
+    "description": "DS_TREE_005_A02 是学习 DS_TREE_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_TOPIC_01",
+    "description": "DS_GRAPH_MODULE 是学习 DS_GRAPH_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_001",
+    "description": "DS_GRAPH_TOPIC_01 是学习 DS_GRAPH_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_001_A01",
+    "description": "DS_GRAPH_001 是学习 DS_GRAPH_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_001_A02",
+    "description": "DS_GRAPH_001 是学习 DS_GRAPH_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_001_A02",
+    "description": "DS_GRAPH_001_A01 是学习 DS_GRAPH_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_001_A03",
+    "description": "DS_GRAPH_001 是学习 DS_GRAPH_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_001_A03",
+    "description": "DS_GRAPH_001_A02 是学习 DS_GRAPH_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_TOPIC_02",
+    "description": "DS_GRAPH_MODULE 是学习 DS_GRAPH_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002",
+    "description": "DS_GRAPH_TOPIC_02 是学习 DS_GRAPH_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_001",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002",
+    "description": "DS_GRAPH_001 是学习 DS_GRAPH_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A01",
+    "description": "DS_GRAPH_002 是学习 DS_GRAPH_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A02",
+    "description": "DS_GRAPH_002 是学习 DS_GRAPH_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A02",
+    "description": "DS_GRAPH_002_A01 是学习 DS_GRAPH_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A03",
+    "description": "DS_GRAPH_002 是学习 DS_GRAPH_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A03",
+    "description": "DS_GRAPH_002_A02 是学习 DS_GRAPH_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A04",
+    "description": "DS_GRAPH_002 是学习 DS_GRAPH_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002_A03",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_002_A04",
+    "description": "DS_GRAPH_002_A03 是学习 DS_GRAPH_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003",
+    "description": "DS_GRAPH_TOPIC_02 是学习 DS_GRAPH_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_002",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003",
+    "description": "DS_GRAPH_002 是学习 DS_GRAPH_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A01",
+    "description": "DS_GRAPH_003 是学习 DS_GRAPH_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A02",
+    "description": "DS_GRAPH_003 是学习 DS_GRAPH_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A02",
+    "description": "DS_GRAPH_003_A01 是学习 DS_GRAPH_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A03",
+    "description": "DS_GRAPH_003 是学习 DS_GRAPH_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A03",
+    "description": "DS_GRAPH_003_A02 是学习 DS_GRAPH_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A04",
+    "description": "DS_GRAPH_003 是学习 DS_GRAPH_003_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003_A03",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_003_A04",
+    "description": "DS_GRAPH_003_A03 是学习 DS_GRAPH_003_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_TOPIC_03",
+    "description": "DS_GRAPH_MODULE 是学习 DS_GRAPH_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004",
+    "description": "DS_GRAPH_TOPIC_03 是学习 DS_GRAPH_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_003",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004",
+    "description": "DS_GRAPH_003 是学习 DS_GRAPH_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A01",
+    "description": "DS_GRAPH_004 是学习 DS_GRAPH_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A02",
+    "description": "DS_GRAPH_004 是学习 DS_GRAPH_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A02",
+    "description": "DS_GRAPH_004_A01 是学习 DS_GRAPH_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A03",
+    "description": "DS_GRAPH_004 是学习 DS_GRAPH_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A03",
+    "description": "DS_GRAPH_004_A02 是学习 DS_GRAPH_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A04",
+    "description": "DS_GRAPH_004 是学习 DS_GRAPH_004_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004_A03",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_004_A04",
+    "description": "DS_GRAPH_004_A03 是学习 DS_GRAPH_004_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005",
+    "description": "DS_GRAPH_TOPIC_03 是学习 DS_GRAPH_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_004",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005",
+    "description": "DS_GRAPH_004 是学习 DS_GRAPH_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A01",
+    "description": "DS_GRAPH_005 是学习 DS_GRAPH_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A02",
+    "description": "DS_GRAPH_005 是学习 DS_GRAPH_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A02",
+    "description": "DS_GRAPH_005_A01 是学习 DS_GRAPH_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A03",
+    "description": "DS_GRAPH_005 是学习 DS_GRAPH_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A03",
+    "description": "DS_GRAPH_005_A02 是学习 DS_GRAPH_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A04",
+    "description": "DS_GRAPH_005 是学习 DS_GRAPH_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_GRAPH_005_A03",
+    "relation": "prerequisite",
+    "target": "DS_GRAPH_005_A04",
+    "description": "DS_GRAPH_005_A03 是学习 DS_GRAPH_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_TOPIC_01",
+    "description": "DS_SEARCH_MODULE 是学习 DS_SEARCH_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_001",
+    "description": "DS_SEARCH_TOPIC_01 是学习 DS_SEARCH_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_001_A01",
+    "description": "DS_SEARCH_001 是学习 DS_SEARCH_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_001_A02",
+    "description": "DS_SEARCH_001 是学习 DS_SEARCH_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_001_A02",
+    "description": "DS_SEARCH_001_A01 是学习 DS_SEARCH_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_001_A03",
+    "description": "DS_SEARCH_001 是学习 DS_SEARCH_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_001_A03",
+    "description": "DS_SEARCH_001_A02 是学习 DS_SEARCH_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_TOPIC_02",
+    "description": "DS_SEARCH_MODULE 是学习 DS_SEARCH_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002",
+    "description": "DS_SEARCH_TOPIC_02 是学习 DS_SEARCH_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_001",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002",
+    "description": "DS_SEARCH_001 是学习 DS_SEARCH_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A01",
+    "description": "DS_SEARCH_002 是学习 DS_SEARCH_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A02",
+    "description": "DS_SEARCH_002 是学习 DS_SEARCH_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A02",
+    "description": "DS_SEARCH_002_A01 是学习 DS_SEARCH_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A03",
+    "description": "DS_SEARCH_002 是学习 DS_SEARCH_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A03",
+    "description": "DS_SEARCH_002_A02 是学习 DS_SEARCH_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A04",
+    "description": "DS_SEARCH_002 是学习 DS_SEARCH_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002_A03",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_002_A04",
+    "description": "DS_SEARCH_002_A03 是学习 DS_SEARCH_002_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_TOPIC_03",
+    "description": "DS_SEARCH_MODULE 是学习 DS_SEARCH_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003",
+    "description": "DS_SEARCH_TOPIC_03 是学习 DS_SEARCH_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_002",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003",
+    "description": "DS_SEARCH_002 是学习 DS_SEARCH_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003_A01",
+    "description": "DS_SEARCH_003 是学习 DS_SEARCH_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003_A02",
+    "description": "DS_SEARCH_003 是学习 DS_SEARCH_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003_A02",
+    "description": "DS_SEARCH_003_A01 是学习 DS_SEARCH_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003_A03",
+    "description": "DS_SEARCH_003 是学习 DS_SEARCH_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_003_A03",
+    "description": "DS_SEARCH_003_A02 是学习 DS_SEARCH_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004",
+    "description": "DS_SEARCH_TOPIC_03 是学习 DS_SEARCH_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_003",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004",
+    "description": "DS_SEARCH_003 是学习 DS_SEARCH_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004_A01",
+    "description": "DS_SEARCH_004 是学习 DS_SEARCH_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004_A02",
+    "description": "DS_SEARCH_004 是学习 DS_SEARCH_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004_A02",
+    "description": "DS_SEARCH_004_A01 是学习 DS_SEARCH_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004_A03",
+    "description": "DS_SEARCH_004 是学习 DS_SEARCH_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_004_A03",
+    "description": "DS_SEARCH_004_A02 是学习 DS_SEARCH_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_TOPIC_04",
+    "description": "DS_SEARCH_MODULE 是学习 DS_SEARCH_TOPIC_04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_TOPIC_04",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005",
+    "description": "DS_SEARCH_TOPIC_04 是学习 DS_SEARCH_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_004",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005",
+    "description": "DS_SEARCH_004 是学习 DS_SEARCH_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A01",
+    "description": "DS_SEARCH_005 是学习 DS_SEARCH_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A02",
+    "description": "DS_SEARCH_005 是学习 DS_SEARCH_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A02",
+    "description": "DS_SEARCH_005_A01 是学习 DS_SEARCH_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A03",
+    "description": "DS_SEARCH_005 是学习 DS_SEARCH_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A03",
+    "description": "DS_SEARCH_005_A02 是学习 DS_SEARCH_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A04",
+    "description": "DS_SEARCH_005 是学习 DS_SEARCH_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SEARCH_005_A03",
+    "relation": "prerequisite",
+    "target": "DS_SEARCH_005_A04",
+    "description": "DS_SEARCH_005_A03 是学习 DS_SEARCH_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SORT_TOPIC_01",
+    "description": "DS_SORT_MODULE 是学习 DS_SORT_TOPIC_01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_01",
+    "relation": "prerequisite",
+    "target": "DS_SORT_001",
+    "description": "DS_SORT_TOPIC_01 是学习 DS_SORT_001 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "prerequisite",
+    "target": "DS_SORT_001_A01",
+    "description": "DS_SORT_001 是学习 DS_SORT_001_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "prerequisite",
+    "target": "DS_SORT_001_A02",
+    "description": "DS_SORT_001 是学习 DS_SORT_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_001_A01",
+    "relation": "prerequisite",
+    "target": "DS_SORT_001_A02",
+    "description": "DS_SORT_001_A01 是学习 DS_SORT_001_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "prerequisite",
+    "target": "DS_SORT_001_A03",
+    "description": "DS_SORT_001 是学习 DS_SORT_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_001_A02",
+    "relation": "prerequisite",
+    "target": "DS_SORT_001_A03",
+    "description": "DS_SORT_001_A02 是学习 DS_SORT_001_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SORT_TOPIC_02",
+    "description": "DS_SORT_MODULE 是学习 DS_SORT_TOPIC_02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_02",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002",
+    "description": "DS_SORT_TOPIC_02 是学习 DS_SORT_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_001",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002",
+    "description": "DS_SORT_001 是学习 DS_SORT_002 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002_A01",
+    "description": "DS_SORT_002 是学习 DS_SORT_002_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002_A02",
+    "description": "DS_SORT_002 是学习 DS_SORT_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_002_A01",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002_A02",
+    "description": "DS_SORT_002_A01 是学习 DS_SORT_002_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002_A03",
+    "description": "DS_SORT_002 是学习 DS_SORT_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_002_A02",
+    "relation": "prerequisite",
+    "target": "DS_SORT_002_A03",
+    "description": "DS_SORT_002_A02 是学习 DS_SORT_002_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SORT_TOPIC_03",
+    "description": "DS_SORT_MODULE 是学习 DS_SORT_TOPIC_03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_03",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003",
+    "description": "DS_SORT_TOPIC_03 是学习 DS_SORT_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_002",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003",
+    "description": "DS_SORT_002 是学习 DS_SORT_003 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003_A01",
+    "description": "DS_SORT_003 是学习 DS_SORT_003_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003_A02",
+    "description": "DS_SORT_003 是学习 DS_SORT_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_003_A01",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003_A02",
+    "description": "DS_SORT_003_A01 是学习 DS_SORT_003_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003_A03",
+    "description": "DS_SORT_003 是学习 DS_SORT_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_003_A02",
+    "relation": "prerequisite",
+    "target": "DS_SORT_003_A03",
+    "description": "DS_SORT_003_A02 是学习 DS_SORT_003_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SORT_TOPIC_04",
+    "description": "DS_SORT_MODULE 是学习 DS_SORT_TOPIC_04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_04",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004",
+    "description": "DS_SORT_TOPIC_04 是学习 DS_SORT_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_003",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004",
+    "description": "DS_SORT_003 是学习 DS_SORT_004 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004_A01",
+    "description": "DS_SORT_004 是学习 DS_SORT_004_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004_A02",
+    "description": "DS_SORT_004 是学习 DS_SORT_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_004_A01",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004_A02",
+    "description": "DS_SORT_004_A01 是学习 DS_SORT_004_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004_A03",
+    "description": "DS_SORT_004 是学习 DS_SORT_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_004_A02",
+    "relation": "prerequisite",
+    "target": "DS_SORT_004_A03",
+    "description": "DS_SORT_004_A02 是学习 DS_SORT_004_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_MODULE",
+    "relation": "prerequisite",
+    "target": "DS_SORT_TOPIC_05",
+    "description": "DS_SORT_MODULE 是学习 DS_SORT_TOPIC_05 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_TOPIC_05",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005",
+    "description": "DS_SORT_TOPIC_05 是学习 DS_SORT_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_004",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005",
+    "description": "DS_SORT_004 是学习 DS_SORT_005 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A01",
+    "description": "DS_SORT_005 是学习 DS_SORT_005_A01 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A02",
+    "description": "DS_SORT_005 是学习 DS_SORT_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005_A01",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A02",
+    "description": "DS_SORT_005_A01 是学习 DS_SORT_005_A02 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A03",
+    "description": "DS_SORT_005 是学习 DS_SORT_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005_A02",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A03",
+    "description": "DS_SORT_005_A02 是学习 DS_SORT_005_A03 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A04",
+    "description": "DS_SORT_005 是学习 DS_SORT_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_SORT_005_A03",
+    "relation": "prerequisite",
+    "target": "DS_SORT_005_A04",
+    "description": "DS_SORT_005_A03 是学习 DS_SORT_005_A04 前应先掌握的知识。"
+  },
+  {
+    "source": "DS_LIST_001_A02",
+    "relation": "contrast_with",
+    "target": "DS_LIST_002_A02",
+    "description": "顺序表和单链表在插入删除代价与指针维护上形成典型对比。"
+  },
+  {
+    "source": "DS_STACK_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_005_A03",
+    "description": "循环队列判满条件常与长度计算共同考查。"
+  },
+  {
+    "source": "DS_STACK_005_A04",
+    "relation": "used_in",
+    "target": "DS_GRAPH_003_A02",
+    "description": "队列入队出队规则是 BFS 队列实现的基础。"
+  },
+  {
+    "source": "DS_GRAPH_003_A04",
+    "relation": "similar_to",
+    "target": "DS_TREE_002_A04",
+    "description": "BFS 与二叉树层序遍历都体现逐层访问思想。"
+  },
+  {
+    "source": "DS_GRAPH_002_A03",
+    "relation": "used_in",
+    "target": "DS_GRAPH_001_A02",
+    "description": "DFS 可用于图的连通性判断。"
+  },
+  {
+    "source": "DS_TREE_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_003_A01",
+    "description": "先序遍历规则常与先序中序还原共同考查。"
+  },
+  {
+    "source": "DS_TREE_005_A02",
+    "relation": "used_in",
+    "target": "DS_TREE_005_A01",
+    "description": "哈夫曼树构造用于生成哈夫曼编码。"
+  },
+  {
+    "source": "DS_GRAPH_005_A02",
+    "relation": "contrast_with",
+    "target": "DS_GRAPH_005_A03",
+    "description": "Dijkstra 松弛更新与 Floyd 中间顶点更新粒度不同。"
+  },
+  {
+    "source": "DS_SORT_005_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_002_A02",
+    "description": "排序稳定性常与具体交换排序过程共同考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_001",
+    "description": "DS_COMPLEXITY_001_A01 的错题可触发 ERR_COMPLEXITY_001：算法五大特性定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_001",
+    "description": "DS_COMPLEXITY_001_A02 的错题可触发 ERR_COMPLEXITY_001：算法五大特性定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A03",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_001",
+    "description": "DS_COMPLEXITY_001_A03 的错题可触发 ERR_COMPLEXITY_002：算法五大特性典型题型识别边界情况遗漏。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002_A03",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_002",
+    "description": "DS_COMPLEXITY_002_A03 的错题可触发 ERR_COMPLEXITY_003：时间复杂度分析典型题型识别操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_003",
+    "description": "DS_COMPLEXITY_003_A02 的错题可触发 ERR_COMPLEXITY_004：空间复杂度分析操作过程与复杂度复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_002",
+    "description": "DS_COMPLEXITY_002_A02 的错题可触发 ERR_COMPLEXITY_004：空间复杂度分析操作过程与复杂度复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004_A02",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_004",
+    "description": "DS_COMPLEXITY_004_A02 的错题可触发 ERR_COMPLEXITY_005：递归复杂度操作过程与复杂度概念混淆。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005_A01",
+    "relation": "error_related_to",
+    "target": "DS_COMPLEXITY_005",
+    "description": "DS_COMPLEXITY_005_A01 的错题可触发 ERR_COMPLEXITY_006：抽象数据类型定义与适用条件题意映射错误。"
+  },
+  {
+    "source": "DS_LIST_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_LIST_001",
+    "description": "DS_LIST_001_A01 的错题可触发 ERR_LIST_001：顺序表基本操作定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_LIST_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_LIST_001",
+    "description": "DS_LIST_001_A02 的错题可触发 ERR_LIST_001：顺序表基本操作定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_LIST_001_A03",
+    "relation": "error_related_to",
+    "target": "DS_LIST_001",
+    "description": "DS_LIST_001_A03 的错题可触发 ERR_LIST_002：顺序表基本操作典型题型识别边界情况遗漏。"
+  },
+  {
+    "source": "DS_LIST_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_LIST_002",
+    "description": "DS_LIST_002_A02 的错题可触发 ERR_LIST_003：单链表插入指针顺序操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_LIST_002_A04",
+    "relation": "error_related_to",
+    "target": "DS_LIST_002",
+    "description": "DS_LIST_002_A04 的错题可触发 ERR_LIST_004：头插法与尾插法建表复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_LIST_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_LIST_003",
+    "description": "DS_LIST_003_A02 的错题可触发 ERR_LIST_005：双链表操作操作过程与复杂度概念混淆。"
+  },
+  {
+    "source": "DS_LIST_004_A01",
+    "relation": "error_related_to",
+    "target": "DS_LIST_004",
+    "description": "DS_LIST_004_A01 的错题可触发 ERR_LIST_006：循环链表定义与适用条件题意映射错误。"
+  },
+  {
+    "source": "DS_LIST_004_A03",
+    "relation": "error_related_to",
+    "target": "DS_LIST_004",
+    "description": "DS_LIST_004_A03 的错题可触发 ERR_LIST_007：循环链表典型题型识别过程跟踪错误。"
+  },
+  {
+    "source": "DS_LIST_003_A01",
+    "relation": "error_related_to",
+    "target": "DS_LIST_003",
+    "description": "DS_LIST_003_A01 的错题可触发 ERR_LIST_007：循环链表典型题型识别过程跟踪错误。"
+  },
+  {
+    "source": "DS_LIST_005_A02",
+    "relation": "error_related_to",
+    "target": "DS_LIST_005",
+    "description": "DS_LIST_005_A02 的错题可触发 ERR_LIST_008：线性表应用题操作过程与复杂度结论适用范围扩大。"
+  },
+  {
+    "source": "DS_STACK_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_STACK_001",
+    "description": "DS_STACK_001_A01 的错题可触发 ERR_STACK_001：栈的顺序存储定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_STACK_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_STACK_001",
+    "description": "DS_STACK_001_A02 的错题可触发 ERR_STACK_001：栈的顺序存储定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_STACK_001_A03",
+    "relation": "error_related_to",
+    "target": "DS_STACK_001",
+    "description": "DS_STACK_001_A03 的错题可触发 ERR_STACK_002：栈的顺序存储典型题型识别边界情况遗漏。"
+  },
+  {
+    "source": "DS_STACK_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_STACK_002",
+    "description": "DS_STACK_002_A02 的错题可触发 ERR_STACK_003：栈的链式存储操作过程与复杂度操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_STACK_003_A01",
+    "relation": "error_related_to",
+    "target": "DS_STACK_003",
+    "description": "DS_STACK_003_A01 的错题可触发 ERR_STACK_004：栈的应用定义与适用条件复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_STACK_003_A03",
+    "relation": "error_related_to",
+    "target": "DS_STACK_003",
+    "description": "DS_STACK_003_A03 的错题可触发 ERR_STACK_005：栈的应用典型题型识别概念混淆。"
+  },
+  {
+    "source": "DS_STACK_004_A02",
+    "relation": "error_related_to",
+    "target": "DS_STACK_004",
+    "description": "DS_STACK_004_A02 的错题可触发 ERR_STACK_006：队列的顺序存储操作过程与复杂度题意映射错误。"
+  },
+  {
+    "source": "DS_STACK_005_A01",
+    "relation": "error_related_to",
+    "target": "DS_STACK_005",
+    "description": "DS_STACK_005_A01 的错题可触发 ERR_STACK_007：循环队列队空条件过程跟踪错误。"
+  },
+  {
+    "source": "DS_STACK_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_STACK_003",
+    "description": "DS_STACK_003_A02 的错题可触发 ERR_STACK_007：循环队列队空条件过程跟踪错误。"
+  },
+  {
+    "source": "DS_STACK_005_A03",
+    "relation": "error_related_to",
+    "target": "DS_STACK_005",
+    "description": "DS_STACK_005_A03 的错题可触发 ERR_STACK_008：循环队列长度计算结论适用范围扩大。"
+  },
+  {
+    "source": "DS_STRING_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_STRING_001",
+    "description": "DS_STRING_001_A01 的错题可触发 ERR_STRING_001：串的基本概念定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_STRING_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_STRING_001",
+    "description": "DS_STRING_001_A02 的错题可触发 ERR_STRING_001：串的基本概念定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_STRING_001_A03",
+    "relation": "error_related_to",
+    "target": "DS_STRING_001",
+    "description": "DS_STRING_001_A03 的错题可触发 ERR_STRING_002：串的基本概念典型题型识别边界情况遗漏。"
+  },
+  {
+    "source": "DS_STRING_002_A03",
+    "relation": "error_related_to",
+    "target": "DS_STRING_002",
+    "description": "DS_STRING_002_A03 的错题可触发 ERR_STRING_003：KMP模式匹配典型题型识别操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_STRING_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_STRING_003",
+    "description": "DS_STRING_003_A02 的错题可触发 ERR_STRING_004：数组存储地址计算操作过程与复杂度复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_STRING_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_STRING_002",
+    "description": "DS_STRING_002_A02 的错题可触发 ERR_STRING_004：数组存储地址计算操作过程与复杂度复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_STRING_004_A02",
+    "relation": "error_related_to",
+    "target": "DS_STRING_004",
+    "description": "DS_STRING_004_A02 的错题可触发 ERR_STRING_005：特殊矩阵压缩存储操作过程与复杂度概念混淆。"
+  },
+  {
+    "source": "DS_STRING_005_A01",
+    "relation": "error_related_to",
+    "target": "DS_STRING_005",
+    "description": "DS_STRING_005_A01 的错题可触发 ERR_STRING_006：广义表深度与长度定义与适用条件题意映射错误。"
+  },
+  {
+    "source": "DS_TREE_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_TREE_001",
+    "description": "DS_TREE_001_A01 的错题可触发 ERR_TREE_001：二叉树第 i 层最大结点数适用条件误判。"
+  },
+  {
+    "source": "DS_TREE_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_TREE_001",
+    "description": "DS_TREE_001_A02 的错题可触发 ERR_TREE_001：二叉树第 i 层最大结点数适用条件误判。"
+  },
+  {
+    "source": "DS_TREE_001_A04",
+    "relation": "error_related_to",
+    "target": "DS_TREE_001",
+    "description": "DS_TREE_001_A04 的错题可触发 ERR_TREE_003：完全二叉树编号性质操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_TREE_002_A01",
+    "relation": "error_related_to",
+    "target": "DS_TREE_002",
+    "description": "DS_TREE_002_A01 的错题可触发 ERR_TREE_004：先序遍历规则复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_TREE_002_A03",
+    "relation": "error_related_to",
+    "target": "DS_TREE_002",
+    "description": "DS_TREE_002_A03 的错题可触发 ERR_TREE_005：后序遍历规则概念混淆。"
+  },
+  {
+    "source": "DS_TREE_002_A04",
+    "relation": "error_related_to",
+    "target": "DS_TREE_002",
+    "description": "DS_TREE_002_A04 的错题可触发 ERR_TREE_006：层序遍历规则题意映射错误。"
+  },
+  {
+    "source": "DS_TREE_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_TREE_003",
+    "description": "DS_TREE_003_A02 的错题可触发 ERR_TREE_007：后序中序还原二叉树过程跟踪错误。"
+  },
+  {
+    "source": "DS_TREE_003_A03",
+    "relation": "error_related_to",
+    "target": "DS_TREE_003",
+    "description": "DS_TREE_003_A03 的错题可触发 ERR_TREE_008：遍历还原唯一性条件结论适用范围扩大。"
+  },
+  {
+    "source": "DS_TREE_004_A01",
+    "relation": "error_related_to",
+    "target": "DS_TREE_004",
+    "description": "DS_TREE_004_A01 的错题可触发 ERR_TREE_009：线索二叉树定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_TREE_004_A02",
+    "relation": "error_related_to",
+    "target": "DS_TREE_004",
+    "description": "DS_TREE_004_A02 的错题可触发 ERR_TREE_010：线索二叉树操作过程与复杂度边界情况遗漏。"
+  },
+  {
+    "source": "DS_TREE_005_A01",
+    "relation": "error_related_to",
+    "target": "DS_TREE_005",
+    "description": "DS_TREE_005_A01 的错题可触发 ERR_TREE_011：哈夫曼树定义与适用条件操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_TREE_005_A02",
+    "relation": "error_related_to",
+    "target": "DS_TREE_005",
+    "description": "DS_TREE_005_A02 的错题可触发 ERR_TREE_012：哈夫曼树操作过程与复杂度复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_GRAPH_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_001",
+    "description": "DS_GRAPH_001_A01 的错题可触发 ERR_GRAPH_001：图的存储结构定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_GRAPH_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_001",
+    "description": "DS_GRAPH_001_A02 的错题可触发 ERR_GRAPH_001：图的存储结构定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_GRAPH_002_A01",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_002",
+    "description": "DS_GRAPH_002_A01 的错题可触发 ERR_GRAPH_003：DFS 访问规则操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_GRAPH_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_002",
+    "description": "DS_GRAPH_002_A02 的错题可触发 ERR_GRAPH_004：DFS 递归与栈思想复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_GRAPH_002_A04",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_002",
+    "description": "DS_GRAPH_002_A04 的错题可触发 ERR_GRAPH_005：DFS 生成树概念混淆。"
+  },
+  {
+    "source": "DS_GRAPH_003_A01",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_003",
+    "description": "DS_GRAPH_003_A01 的错题可触发 ERR_GRAPH_006：BFS 访问规则题意映射错误。"
+  },
+  {
+    "source": "DS_GRAPH_003_A03",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_003",
+    "description": "DS_GRAPH_003_A03 的错题可触发 ERR_GRAPH_007：BFS 最短层次性质过程跟踪错误。"
+  },
+  {
+    "source": "DS_GRAPH_004_A01",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_004",
+    "description": "DS_GRAPH_004_A01 的错题可触发 ERR_GRAPH_008：Prim 算法选边规则结论适用范围扩大。"
+  },
+  {
+    "source": "DS_GRAPH_004_A02",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_004",
+    "description": "DS_GRAPH_004_A02 的错题可触发 ERR_GRAPH_009：Kruskal 算法选边规则适用条件误判。"
+  },
+  {
+    "source": "DS_GRAPH_004_A04",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_004",
+    "description": "DS_GRAPH_004_A04 的错题可触发 ERR_GRAPH_010：MST 与最短路径区别边界情况遗漏。"
+  },
+  {
+    "source": "DS_GRAPH_003_A04",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_003",
+    "description": "DS_GRAPH_003_A04 的错题可触发 ERR_GRAPH_010：MST 与最短路径区别边界情况遗漏。"
+  },
+  {
+    "source": "DS_GRAPH_005_A01",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_005",
+    "description": "DS_GRAPH_005_A01 的错题可触发 ERR_GRAPH_011：Dijkstra 适用条件操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_GRAPH_005_A03",
+    "relation": "error_related_to",
+    "target": "DS_GRAPH_005",
+    "description": "DS_GRAPH_005_A03 的错题可触发 ERR_GRAPH_012：Floyd 中间顶点更新复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_SEARCH_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_001",
+    "description": "DS_SEARCH_001_A01 的错题可触发 ERR_SEARCH_001：顺序查找定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_SEARCH_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_001",
+    "description": "DS_SEARCH_001_A02 的错题可触发 ERR_SEARCH_001：顺序查找定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_SEARCH_001_A03",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_001",
+    "description": "DS_SEARCH_001_A03 的错题可触发 ERR_SEARCH_002：顺序查找典型题型识别边界情况遗漏。"
+  },
+  {
+    "source": "DS_SEARCH_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_002",
+    "description": "DS_SEARCH_002_A02 的错题可触发 ERR_SEARCH_003：折半查找 mid 计算操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_SEARCH_002_A04",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_002",
+    "description": "DS_SEARCH_002_A04 的错题可触发 ERR_SEARCH_004：折半查找比较次数复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_SEARCH_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_003",
+    "description": "DS_SEARCH_003_A02 的错题可触发 ERR_SEARCH_005：二叉排序树操作过程与复杂度概念混淆。"
+  },
+  {
+    "source": "DS_SEARCH_004_A01",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_004",
+    "description": "DS_SEARCH_004_A01 的错题可触发 ERR_SEARCH_006：平衡二叉树定义与适用条件题意映射错误。"
+  },
+  {
+    "source": "DS_SEARCH_004_A03",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_004",
+    "description": "DS_SEARCH_004_A03 的错题可触发 ERR_SEARCH_007：平衡二叉树典型题型识别过程跟踪错误。"
+  },
+  {
+    "source": "DS_SEARCH_003_A01",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_003",
+    "description": "DS_SEARCH_003_A01 的错题可触发 ERR_SEARCH_007：平衡二叉树典型题型识别过程跟踪错误。"
+  },
+  {
+    "source": "DS_SEARCH_005_A02",
+    "relation": "error_related_to",
+    "target": "DS_SEARCH_005",
+    "description": "DS_SEARCH_005_A02 的错题可触发 ERR_SEARCH_008：线性探测处理冲突结论适用范围扩大。"
+  },
+  {
+    "source": "DS_SORT_001_A01",
+    "relation": "error_related_to",
+    "target": "DS_SORT_001",
+    "description": "DS_SORT_001_A01 的错题可触发 ERR_SORT_001：插入排序定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_SORT_001_A02",
+    "relation": "error_related_to",
+    "target": "DS_SORT_001",
+    "description": "DS_SORT_001_A02 的错题可触发 ERR_SORT_001：插入排序定义与适用条件适用条件误判。"
+  },
+  {
+    "source": "DS_SORT_002_A01",
+    "relation": "error_related_to",
+    "target": "DS_SORT_002",
+    "description": "DS_SORT_002_A01 的错题可触发 ERR_SORT_003：交换排序定义与适用条件操作步骤顺序错误。"
+  },
+  {
+    "source": "DS_SORT_002_A02",
+    "relation": "error_related_to",
+    "target": "DS_SORT_002",
+    "description": "DS_SORT_002_A02 的错题可触发 ERR_SORT_004：交换排序操作过程与复杂度复杂度来源判断错误。"
+  },
+  {
+    "source": "DS_SORT_003_A01",
+    "relation": "error_related_to",
+    "target": "DS_SORT_003",
+    "description": "DS_SORT_003_A01 的错题可触发 ERR_SORT_005：选择排序定义与适用条件概念混淆。"
+  },
+  {
+    "source": "DS_SORT_003_A03",
+    "relation": "error_related_to",
+    "target": "DS_SORT_003",
+    "description": "DS_SORT_003_A03 的错题可触发 ERR_SORT_006：选择排序典型题型识别题意映射错误。"
+  },
+  {
+    "source": "DS_SORT_004_A01",
+    "relation": "error_related_to",
+    "target": "DS_SORT_004",
+    "description": "DS_SORT_004_A01 的错题可触发 ERR_SORT_007：归并排序定义与适用条件过程跟踪错误。"
+  },
+  {
+    "source": "DS_SORT_003_A02",
+    "relation": "error_related_to",
+    "target": "DS_SORT_003",
+    "description": "DS_SORT_003_A02 的错题可触发 ERR_SORT_007：归并排序定义与适用条件过程跟踪错误。"
+  },
+  {
+    "source": "DS_SORT_004_A03",
+    "relation": "error_related_to",
+    "target": "DS_SORT_004",
+    "description": "DS_SORT_004_A03 的错题可触发 ERR_SORT_008：归并排序典型题型识别结论适用范围扩大。"
+  },
+  {
+    "source": "DS_SORT_005_A01",
+    "relation": "error_related_to",
+    "target": "DS_SORT_005",
+    "description": "DS_SORT_005_A01 的错题可触发 ERR_SORT_009：排序时间复杂度比较适用条件误判。"
+  },
+  {
+    "source": "DS_SORT_005_A03",
+    "relation": "error_related_to",
+    "target": "DS_SORT_005",
+    "description": "DS_SORT_005_A03 的错题可触发 ERR_SORT_010：排序稳定性判断边界情况遗漏。"
+  },
+  {
+    "source": "DS_SORT_004_A02",
+    "relation": "error_related_to",
+    "target": "DS_SORT_004",
+    "description": "DS_SORT_004_A02 的错题可触发 ERR_SORT_010：排序稳定性判断边界情况遗漏。"
+  },
+  {
+    "source": "DS_STACK_005_A02",
+    "relation": "error_related_to",
+    "target": "DS_STACK_005",
+    "description": "DS_STACK_005_A02 的错题可触发 ERR_STACK_009：循环队列队满条件判定混淆。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_001_A02",
+    "description": "算法五大特性定义与适用条件 和 算法五大特性操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_001_A03",
+    "description": "算法五大特性操作过程与复杂度 和 算法五大特性典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_002_A02",
+    "description": "时间复杂度分析定义与适用条件 和 时间复杂度分析操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_002_A03",
+    "description": "时间复杂度分析操作过程与复杂度 和 时间复杂度分析典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_003_A02",
+    "description": "空间复杂度分析定义与适用条件 和 空间复杂度分析操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_003_A03",
+    "description": "空间复杂度分析操作过程与复杂度 和 空间复杂度分析典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_004_A02",
+    "description": "递归复杂度定义与适用条件 和 递归复杂度操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_004_A03",
+    "description": "递归复杂度操作过程与复杂度 和 递归复杂度典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_005_A02",
+    "description": "抽象数据类型定义与适用条件 和 抽象数据类型操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_COMPLEXITY_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_COMPLEXITY_005_A03",
+    "description": "抽象数据类型操作过程与复杂度 和 抽象数据类型典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_001_A02",
+    "description": "顺序表基本操作定义与适用条件 和 顺序表基本操作操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_001_A03",
+    "description": "顺序表基本操作操作过程与复杂度 和 顺序表基本操作典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_002_A02",
+    "description": "单链表按序查找 和 单链表插入指针顺序 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_002_A03",
+    "description": "单链表插入指针顺序 和 单链表删除前驱定位 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_002_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_002_A04",
+    "description": "单链表删除前驱定位 和 头插法与尾插法建表 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_003_A02",
+    "description": "双链表操作定义与适用条件 和 双链表操作操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_003_A03",
+    "description": "双链表操作操作过程与复杂度 和 双链表操作典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_004_A02",
+    "description": "循环链表定义与适用条件 和 循环链表操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_004_A03",
+    "description": "循环链表操作过程与复杂度 和 循环链表典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_005_A02",
+    "description": "线性表应用题定义与适用条件 和 线性表应用题操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_LIST_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_LIST_005_A03",
+    "description": "线性表应用题操作过程与复杂度 和 线性表应用题典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_001_A02",
+    "description": "栈的顺序存储定义与适用条件 和 栈的顺序存储操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_001_A03",
+    "description": "栈的顺序存储操作过程与复杂度 和 栈的顺序存储典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_002_A02",
+    "description": "栈的链式存储定义与适用条件 和 栈的链式存储操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_002_A03",
+    "description": "栈的链式存储操作过程与复杂度 和 栈的链式存储典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_003_A02",
+    "description": "栈的应用定义与适用条件 和 栈的应用操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_003_A03",
+    "description": "栈的应用操作过程与复杂度 和 栈的应用典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_004_A02",
+    "description": "队列的顺序存储定义与适用条件 和 队列的顺序存储操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_004_A03",
+    "description": "队列的顺序存储操作过程与复杂度 和 队列的顺序存储典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_005_A02",
+    "description": "循环队列队空条件 和 循环队列队满条件 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STACK_005_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_STACK_005_A04",
+    "description": "循环队列长度计算 和 循环队列入队出队指针变化 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_001_A02",
+    "description": "串的基本概念定义与适用条件 和 串的基本概念操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_001_A03",
+    "description": "串的基本概念操作过程与复杂度 和 串的基本概念典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_002_A02",
+    "description": "KMP模式匹配定义与适用条件 和 KMP模式匹配操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_002_A03",
+    "description": "KMP模式匹配操作过程与复杂度 和 KMP模式匹配典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_003_A02",
+    "description": "数组存储地址计算定义与适用条件 和 数组存储地址计算操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_003_A03",
+    "description": "数组存储地址计算操作过程与复杂度 和 数组存储地址计算典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_004_A02",
+    "description": "特殊矩阵压缩存储定义与适用条件 和 特殊矩阵压缩存储操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_004_A03",
+    "description": "特殊矩阵压缩存储操作过程与复杂度 和 特殊矩阵压缩存储典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_005_A02",
+    "description": "广义表深度与长度定义与适用条件 和 广义表深度与长度操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_STRING_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_STRING_005_A03",
+    "description": "广义表深度与长度操作过程与复杂度 和 广义表深度与长度典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_001_A02",
+    "description": "二叉树第 i 层最大结点数 和 深度为 k 的二叉树最大结点数 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_001_A03",
+    "description": "深度为 k 的二叉树最大结点数 和 叶子结点与度为 2 结点关系 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_001_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_001_A04",
+    "description": "叶子结点与度为 2 结点关系 和 完全二叉树编号性质 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_002_A02",
+    "description": "先序遍历规则 和 中序遍历规则 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_002_A03",
+    "description": "中序遍历规则 和 后序遍历规则 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_002_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_002_A04",
+    "description": "后序遍历规则 和 层序遍历规则 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_003_A02",
+    "description": "先序中序还原二叉树 和 后序中序还原二叉树 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_003_A03",
+    "description": "后序中序还原二叉树 和 遍历还原唯一性条件 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_003_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_003_A04",
+    "description": "遍历还原唯一性条件 和 还原过程递归划分 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_004_A02",
+    "description": "线索二叉树定义与适用条件 和 线索二叉树操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_004_A03",
+    "description": "线索二叉树操作过程与复杂度 和 线索二叉树典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_005_A02",
+    "description": "哈夫曼树定义与适用条件 和 哈夫曼树操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_TREE_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_TREE_005_A03",
+    "description": "哈夫曼树操作过程与复杂度 和 哈夫曼树典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_001_A02",
+    "description": "图的存储结构定义与适用条件 和 图的存储结构操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_001_A03",
+    "description": "图的存储结构操作过程与复杂度 和 图的存储结构典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_002_A02",
+    "description": "DFS 访问规则 和 DFS 递归与栈思想 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_002_A03",
+    "description": "DFS 递归与栈思想 和 DFS 连通性判断 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_002_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_002_A04",
+    "description": "DFS 连通性判断 和 DFS 生成树 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_003_A02",
+    "description": "BFS 访问规则 和 BFS 队列实现 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_003_A03",
+    "description": "BFS 队列实现 和 BFS 最短层次性质 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_003_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_003_A04",
+    "description": "BFS 最短层次性质 和 BFS 与层序遍历关系 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_004_A02",
+    "description": "Prim 算法选边规则 和 Kruskal 算法选边规则 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_004_A03",
+    "description": "Kruskal 算法选边规则 和 最小生成树适用条件 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_004_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_004_A04",
+    "description": "最小生成树适用条件 和 MST 与最短路径区别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_005_A02",
+    "description": "Dijkstra 适用条件 和 Dijkstra 松弛更新 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_005_A03",
+    "description": "Dijkstra 松弛更新 和 Floyd 中间顶点更新 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_GRAPH_005_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_GRAPH_005_A04",
+    "description": "Floyd 中间顶点更新 和 Dijkstra 与 Floyd 对比 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_001_A02",
+    "description": "顺序查找定义与适用条件 和 顺序查找操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_001_A03",
+    "description": "顺序查找操作过程与复杂度 和 顺序查找典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_002_A02",
+    "description": "折半查找前提条件 和 折半查找 mid 计算 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_002_A03",
+    "description": "折半查找 mid 计算 和 折半查找判定树 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_002_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_002_A04",
+    "description": "折半查找判定树 和 折半查找比较次数 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_003_A02",
+    "description": "二叉排序树定义与适用条件 和 二叉排序树操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_003_A03",
+    "description": "二叉排序树操作过程与复杂度 和 二叉排序树典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_004_A02",
+    "description": "平衡二叉树定义与适用条件 和 平衡二叉树操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_004_A03",
+    "description": "平衡二叉树操作过程与复杂度 和 平衡二叉树典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_005_A02",
+    "description": "哈希函数构造 和 线性探测处理冲突 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_005_A03",
+    "description": "线性探测处理冲突 和 链地址法处理冲突 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SEARCH_005_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_SEARCH_005_A04",
+    "description": "链地址法处理冲突 和 哈希表平均查找长度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_001_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_001_A02",
+    "description": "插入排序定义与适用条件 和 插入排序操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_001_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_001_A03",
+    "description": "插入排序操作过程与复杂度 和 插入排序典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_002_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_002_A02",
+    "description": "交换排序定义与适用条件 和 交换排序操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_002_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_002_A03",
+    "description": "交换排序操作过程与复杂度 和 交换排序典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_003_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_003_A02",
+    "description": "选择排序定义与适用条件 和 选择排序操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_003_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_003_A03",
+    "description": "选择排序操作过程与复杂度 和 选择排序典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_004_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_004_A02",
+    "description": "归并排序定义与适用条件 和 归并排序操作过程与复杂度 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_004_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_004_A03",
+    "description": "归并排序操作过程与复杂度 和 归并排序典型题型识别 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_005_A01",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_005_A02",
+    "description": "排序时间复杂度比较 和 排序空间复杂度比较 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_005_A02",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_005_A03",
+    "description": "排序空间复杂度比较 和 排序稳定性判断 常在同一知识点下连续考查。"
+  },
+  {
+    "source": "DS_SORT_005_A03",
+    "relation": "frequently_tested_with",
+    "target": "DS_SORT_005_A04",
+    "description": "排序稳定性判断 和 排序适用场景选择 常在同一知识点下连续考查。"
+  }
+]

@@ -1,0 +1,7449 @@
+[
+  {
+    "id": "DS_COMPLEXITY_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "绪论与复杂度分析",
+    "module": "绪论与复杂度分析",
+    "topic": "绪论与复杂度分析",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "绪论与复杂度分析一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习绪论与复杂度分析，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明绪论与复杂度分析模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_COMPLEXITY_TOPIC_01",
+    "parent_id": "DS_COMPLEXITY_MODULE",
+    "granularity": "topic",
+    "name": "算法基础",
+    "module": "绪论与复杂度分析",
+    "topic": "算法基础",
+    "level": "主题",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "算法基础二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_MODULE"
+    ],
+    "related_concepts": [
+      "绪论与复杂度分析"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立算法基础的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出算法基础下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_COMPLEXITY_001",
+    "parent_id": "DS_COMPLEXITY_TOPIC_01",
+    "granularity": "concept",
+    "name": "算法五大特性",
+    "module": "绪论与复杂度分析",
+    "topic": "算法基础",
+    "level": "基础",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "理解有穷性、确定性、可行性、输入和输出。",
+    "prerequisites": [
+      "DS_COMPLEXITY_TOPIC_01"
+    ],
+    "related_concepts": [
+      "算法基础"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习算法五大特性的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释算法五大特性，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_COMPLEXITY_001_A01",
+    "parent_id": "DS_COMPLEXITY_001",
+    "granularity": "atomic",
+    "name": "算法五大特性定义与适用条件",
+    "module": "绪论与复杂度分析",
+    "topic": "算法基础",
+    "level": "基础",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明算法五大特性的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_COMPLEXITY_001"
+    ],
+    "related_concepts": [
+      "算法五大特性"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“算法五大特性定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“算法五大特性定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_001_A02",
+    "parent_id": "DS_COMPLEXITY_001",
+    "granularity": "atomic",
+    "name": "算法五大特性操作过程与复杂度",
+    "module": "绪论与复杂度分析",
+    "topic": "算法基础",
+    "level": "基础",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演算法五大特性的操作过程，并分析复杂度。理解有穷性、确定性、可行性、输入和输出。",
+    "prerequisites": [
+      "DS_COMPLEXITY_001",
+      "DS_COMPLEXITY_001_A01"
+    ],
+    "related_concepts": [
+      "算法五大特性",
+      "算法五大特性定义与适用条件"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“算法五大特性操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“算法五大特性操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_001_A03",
+    "parent_id": "DS_COMPLEXITY_001",
+    "granularity": "atomic",
+    "name": "算法五大特性典型题型识别",
+    "module": "绪论与复杂度分析",
+    "topic": "算法基础",
+    "level": "基础",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别算法五大特性对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_001",
+      "DS_COMPLEXITY_001_A02"
+    ],
+    "related_concepts": [
+      "算法五大特性",
+      "算法五大特性操作过程与复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“算法五大特性典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“算法五大特性典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_TOPIC_02",
+    "parent_id": "DS_COMPLEXITY_MODULE",
+    "granularity": "topic",
+    "name": "复杂度分析",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "复杂度分析二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_MODULE"
+    ],
+    "related_concepts": [
+      "绪论与复杂度分析"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立复杂度分析的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出复杂度分析下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_COMPLEXITY_002",
+    "parent_id": "DS_COMPLEXITY_TOPIC_02",
+    "granularity": "concept",
+    "name": "时间复杂度分析",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握基本语句、循环和嵌套循环的增长阶估计。",
+    "prerequisites": [
+      "DS_COMPLEXITY_TOPIC_02",
+      "DS_COMPLEXITY_001"
+    ],
+    "related_concepts": [
+      "复杂度分析",
+      "算法五大特性"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习时间复杂度分析的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释时间复杂度分析，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_COMPLEXITY_002_A01",
+    "parent_id": "DS_COMPLEXITY_002",
+    "granularity": "atomic",
+    "name": "时间复杂度分析定义与适用条件",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明时间复杂度分析的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_COMPLEXITY_002"
+    ],
+    "related_concepts": [
+      "时间复杂度分析"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“时间复杂度分析定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“时间复杂度分析定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_002_A02",
+    "parent_id": "DS_COMPLEXITY_002",
+    "granularity": "atomic",
+    "name": "时间复杂度分析操作过程与复杂度",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演时间复杂度分析的操作过程，并分析复杂度。掌握基本语句、循环和嵌套循环的增长阶估计。",
+    "prerequisites": [
+      "DS_COMPLEXITY_002",
+      "DS_COMPLEXITY_002_A01"
+    ],
+    "related_concepts": [
+      "时间复杂度分析",
+      "时间复杂度分析定义与适用条件"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“时间复杂度分析操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“时间复杂度分析操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_002_A03",
+    "parent_id": "DS_COMPLEXITY_002",
+    "granularity": "atomic",
+    "name": "时间复杂度分析典型题型识别",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别时间复杂度分析对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_002",
+      "DS_COMPLEXITY_002_A02"
+    ],
+    "related_concepts": [
+      "时间复杂度分析",
+      "时间复杂度分析操作过程与复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“时间复杂度分析典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“时间复杂度分析典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_003",
+    "parent_id": "DS_COMPLEXITY_TOPIC_02",
+    "granularity": "concept",
+    "name": "空间复杂度分析",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "能分析辅助变量、递归栈和额外数组带来的空间消耗。",
+    "prerequisites": [
+      "DS_COMPLEXITY_TOPIC_02",
+      "DS_COMPLEXITY_002"
+    ],
+    "related_concepts": [
+      "复杂度分析",
+      "时间复杂度分析"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习空间复杂度分析的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释空间复杂度分析，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_COMPLEXITY_003_A01",
+    "parent_id": "DS_COMPLEXITY_003",
+    "granularity": "atomic",
+    "name": "空间复杂度分析定义与适用条件",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明空间复杂度分析的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_COMPLEXITY_003"
+    ],
+    "related_concepts": [
+      "空间复杂度分析"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“空间复杂度分析定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“空间复杂度分析定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_003_A02",
+    "parent_id": "DS_COMPLEXITY_003",
+    "granularity": "atomic",
+    "name": "空间复杂度分析操作过程与复杂度",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演空间复杂度分析的操作过程，并分析复杂度。能分析辅助变量、递归栈和额外数组带来的空间消耗。",
+    "prerequisites": [
+      "DS_COMPLEXITY_003",
+      "DS_COMPLEXITY_003_A01"
+    ],
+    "related_concepts": [
+      "空间复杂度分析",
+      "空间复杂度分析定义与适用条件"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“空间复杂度分析操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“空间复杂度分析操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_003_A03",
+    "parent_id": "DS_COMPLEXITY_003",
+    "granularity": "atomic",
+    "name": "空间复杂度分析典型题型识别",
+    "module": "绪论与复杂度分析",
+    "topic": "复杂度分析",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别空间复杂度分析对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_003",
+      "DS_COMPLEXITY_003_A02"
+    ],
+    "related_concepts": [
+      "空间复杂度分析",
+      "空间复杂度分析操作过程与复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“空间复杂度分析典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“空间复杂度分析典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_TOPIC_03",
+    "parent_id": "DS_COMPLEXITY_MODULE",
+    "granularity": "topic",
+    "name": "递归算法",
+    "module": "绪论与复杂度分析",
+    "topic": "递归算法",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "递归算法二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_MODULE"
+    ],
+    "related_concepts": [
+      "绪论与复杂度分析"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立递归算法的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出递归算法下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_COMPLEXITY_004",
+    "parent_id": "DS_COMPLEXITY_TOPIC_03",
+    "granularity": "concept",
+    "name": "递归复杂度",
+    "module": "绪论与复杂度分析",
+    "topic": "递归算法",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "能用递推式或递归树估计递归算法的时间与空间复杂度。",
+    "prerequisites": [
+      "DS_COMPLEXITY_TOPIC_03",
+      "DS_COMPLEXITY_003"
+    ],
+    "related_concepts": [
+      "递归算法",
+      "空间复杂度分析"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习递归复杂度的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释递归复杂度，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_COMPLEXITY_004_A01",
+    "parent_id": "DS_COMPLEXITY_004",
+    "granularity": "atomic",
+    "name": "递归复杂度定义与适用条件",
+    "module": "绪论与复杂度分析",
+    "topic": "递归算法",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明递归复杂度的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_COMPLEXITY_004"
+    ],
+    "related_concepts": [
+      "递归复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“递归复杂度定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“递归复杂度定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_004_A02",
+    "parent_id": "DS_COMPLEXITY_004",
+    "granularity": "atomic",
+    "name": "递归复杂度操作过程与复杂度",
+    "module": "绪论与复杂度分析",
+    "topic": "递归算法",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演递归复杂度的操作过程，并分析复杂度。能用递推式或递归树估计递归算法的时间与空间复杂度。",
+    "prerequisites": [
+      "DS_COMPLEXITY_004",
+      "DS_COMPLEXITY_004_A01"
+    ],
+    "related_concepts": [
+      "递归复杂度",
+      "递归复杂度定义与适用条件"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“递归复杂度操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“递归复杂度操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_004_A03",
+    "parent_id": "DS_COMPLEXITY_004",
+    "granularity": "atomic",
+    "name": "递归复杂度典型题型识别",
+    "module": "绪论与复杂度分析",
+    "topic": "递归算法",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别递归复杂度对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_004",
+      "DS_COMPLEXITY_004_A02"
+    ],
+    "related_concepts": [
+      "递归复杂度",
+      "递归复杂度操作过程与复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“递归复杂度典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“递归复杂度典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_TOPIC_04",
+    "parent_id": "DS_COMPLEXITY_MODULE",
+    "granularity": "topic",
+    "name": "数据结构基础",
+    "module": "绪论与复杂度分析",
+    "topic": "数据结构基础",
+    "level": "主题",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "数据结构基础二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_MODULE"
+    ],
+    "related_concepts": [
+      "绪论与复杂度分析"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立数据结构基础的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出数据结构基础下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_COMPLEXITY_005",
+    "parent_id": "DS_COMPLEXITY_TOPIC_04",
+    "granularity": "concept",
+    "name": "抽象数据类型",
+    "module": "绪论与复杂度分析",
+    "topic": "数据结构基础",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "理解数据逻辑结构、存储结构和运算集合之间的关系。",
+    "prerequisites": [
+      "DS_COMPLEXITY_TOPIC_04",
+      "DS_COMPLEXITY_004"
+    ],
+    "related_concepts": [
+      "数据结构基础",
+      "递归复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习抽象数据类型的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释抽象数据类型，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_COMPLEXITY_005_A01",
+    "parent_id": "DS_COMPLEXITY_005",
+    "granularity": "atomic",
+    "name": "抽象数据类型定义与适用条件",
+    "module": "绪论与复杂度分析",
+    "topic": "数据结构基础",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明抽象数据类型的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_COMPLEXITY_005"
+    ],
+    "related_concepts": [
+      "抽象数据类型"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“抽象数据类型定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“抽象数据类型定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_005_A02",
+    "parent_id": "DS_COMPLEXITY_005",
+    "granularity": "atomic",
+    "name": "抽象数据类型操作过程与复杂度",
+    "module": "绪论与复杂度分析",
+    "topic": "数据结构基础",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演抽象数据类型的操作过程，并分析复杂度。理解数据逻辑结构、存储结构和运算集合之间的关系。",
+    "prerequisites": [
+      "DS_COMPLEXITY_005",
+      "DS_COMPLEXITY_005_A01"
+    ],
+    "related_concepts": [
+      "抽象数据类型",
+      "抽象数据类型定义与适用条件"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“抽象数据类型操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“抽象数据类型操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_COMPLEXITY_005_A03",
+    "parent_id": "DS_COMPLEXITY_005",
+    "granularity": "atomic",
+    "name": "抽象数据类型典型题型识别",
+    "module": "绪论与复杂度分析",
+    "topic": "数据结构基础",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别抽象数据类型对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_COMPLEXITY_005",
+      "DS_COMPLEXITY_005_A02"
+    ],
+    "related_concepts": [
+      "抽象数据类型",
+      "抽象数据类型操作过程与复杂度"
+    ],
+    "formulas": [
+      "T(n) 通常保留最高阶项",
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“抽象数据类型典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“抽象数据类型典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "线性表",
+    "module": "线性表",
+    "topic": "线性表",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "线性表一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习线性表，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明线性表模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_LIST_TOPIC_01",
+    "parent_id": "DS_LIST_MODULE",
+    "granularity": "topic",
+    "name": "顺序存储",
+    "module": "线性表",
+    "topic": "顺序存储",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "顺序存储二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_LIST_MODULE"
+    ],
+    "related_concepts": [
+      "线性表"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立顺序存储的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出顺序存储下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_LIST_001",
+    "parent_id": "DS_LIST_TOPIC_01",
+    "granularity": "concept",
+    "name": "顺序表基本操作",
+    "module": "线性表",
+    "topic": "顺序存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握顺序表查找、插入、删除的过程和复杂度。",
+    "prerequisites": [
+      "DS_LIST_TOPIC_01"
+    ],
+    "related_concepts": [
+      "顺序存储"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习顺序表基本操作的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释顺序表基本操作，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_LIST_001_A01",
+    "parent_id": "DS_LIST_001",
+    "granularity": "atomic",
+    "name": "顺序表基本操作定义与适用条件",
+    "module": "线性表",
+    "topic": "顺序存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明顺序表基本操作的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_LIST_001"
+    ],
+    "related_concepts": [
+      "顺序表基本操作"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“顺序表基本操作定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“顺序表基本操作定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_001_A02",
+    "parent_id": "DS_LIST_001",
+    "granularity": "atomic",
+    "name": "顺序表基本操作操作过程与复杂度",
+    "module": "线性表",
+    "topic": "顺序存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演顺序表基本操作的操作过程，并分析复杂度。掌握顺序表查找、插入、删除的过程和复杂度。",
+    "prerequisites": [
+      "DS_LIST_001",
+      "DS_LIST_001_A01"
+    ],
+    "related_concepts": [
+      "顺序表基本操作",
+      "顺序表基本操作定义与适用条件"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“顺序表基本操作操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“顺序表基本操作操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_001_A03",
+    "parent_id": "DS_LIST_001",
+    "granularity": "atomic",
+    "name": "顺序表基本操作典型题型识别",
+    "module": "线性表",
+    "topic": "顺序存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别顺序表基本操作对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_LIST_001",
+      "DS_LIST_001_A02"
+    ],
+    "related_concepts": [
+      "顺序表基本操作",
+      "顺序表基本操作操作过程与复杂度"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“顺序表基本操作典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“顺序表基本操作典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_TOPIC_02",
+    "parent_id": "DS_LIST_MODULE",
+    "granularity": "topic",
+    "name": "链式存储",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "链式存储二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_LIST_MODULE"
+    ],
+    "related_concepts": [
+      "线性表"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立链式存储的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出链式存储下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_LIST_002",
+    "parent_id": "DS_LIST_TOPIC_02",
+    "granularity": "concept",
+    "name": "单链表基本操作",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握单链表建表、查找、插入和删除的指针变化。",
+    "prerequisites": [
+      "DS_LIST_TOPIC_02",
+      "DS_LIST_001"
+    ],
+    "related_concepts": [
+      "链式存储",
+      "顺序表基本操作"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习单链表基本操作的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释单链表基本操作，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_LIST_002_A01",
+    "parent_id": "DS_LIST_002",
+    "granularity": "atomic",
+    "name": "单链表按序查找",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从头结点或首元结点开始按 next 指针定位目标结点。",
+    "prerequisites": [
+      "DS_LIST_002"
+    ],
+    "related_concepts": [
+      "单链表基本操作"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“单链表按序查找”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“单链表按序查找”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_002_A02",
+    "parent_id": "DS_LIST_002",
+    "granularity": "atomic",
+    "name": "单链表插入指针顺序",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能正确写出先连新结点后断旧链的插入语句顺序。",
+    "prerequisites": [
+      "DS_LIST_002",
+      "DS_LIST_002_A01"
+    ],
+    "related_concepts": [
+      "单链表基本操作",
+      "单链表按序查找"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“单链表插入指针顺序”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“单链表插入指针顺序”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_002_A03",
+    "parent_id": "DS_LIST_002",
+    "granularity": "atomic",
+    "name": "单链表删除前驱定位",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能先找到被删结点前驱，再修改前驱 next。",
+    "prerequisites": [
+      "DS_LIST_002",
+      "DS_LIST_002_A02"
+    ],
+    "related_concepts": [
+      "单链表基本操作",
+      "单链表插入指针顺序"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“单链表删除前驱定位”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“单链表删除前驱定位”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_002_A04",
+    "parent_id": "DS_LIST_002",
+    "granularity": "atomic",
+    "name": "头插法与尾插法建表",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能区分头插法逆序、尾插法保序的建表特点。",
+    "prerequisites": [
+      "DS_LIST_002",
+      "DS_LIST_002_A03"
+    ],
+    "related_concepts": [
+      "单链表基本操作",
+      "单链表删除前驱定位"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“头插法与尾插法建表”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“头插法与尾插法建表”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_003",
+    "parent_id": "DS_LIST_TOPIC_02",
+    "granularity": "concept",
+    "name": "双链表操作",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "理解双链表前驱、后继指针的维护顺序。",
+    "prerequisites": [
+      "DS_LIST_TOPIC_02",
+      "DS_LIST_002"
+    ],
+    "related_concepts": [
+      "链式存储",
+      "单链表基本操作"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习双链表操作的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释双链表操作，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_LIST_003_A01",
+    "parent_id": "DS_LIST_003",
+    "granularity": "atomic",
+    "name": "双链表操作定义与适用条件",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明双链表操作的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_LIST_003"
+    ],
+    "related_concepts": [
+      "双链表操作"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“双链表操作定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“双链表操作定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_003_A02",
+    "parent_id": "DS_LIST_003",
+    "granularity": "atomic",
+    "name": "双链表操作操作过程与复杂度",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演双链表操作的操作过程，并分析复杂度。理解双链表前驱、后继指针的维护顺序。",
+    "prerequisites": [
+      "DS_LIST_003",
+      "DS_LIST_003_A01"
+    ],
+    "related_concepts": [
+      "双链表操作",
+      "双链表操作定义与适用条件"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“双链表操作操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“双链表操作操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_003_A03",
+    "parent_id": "DS_LIST_003",
+    "granularity": "atomic",
+    "name": "双链表操作典型题型识别",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别双链表操作对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_LIST_003",
+      "DS_LIST_003_A02"
+    ],
+    "related_concepts": [
+      "双链表操作",
+      "双链表操作操作过程与复杂度"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“双链表操作典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“双链表操作典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_004",
+    "parent_id": "DS_LIST_TOPIC_02",
+    "granularity": "concept",
+    "name": "循环链表",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "理解循环链表尾结点与头结点的关系及遍历终止条件。",
+    "prerequisites": [
+      "DS_LIST_TOPIC_02",
+      "DS_LIST_003"
+    ],
+    "related_concepts": [
+      "链式存储",
+      "双链表操作"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习循环链表的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释循环链表，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_LIST_004_A01",
+    "parent_id": "DS_LIST_004",
+    "granularity": "atomic",
+    "name": "循环链表定义与适用条件",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明循环链表的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_LIST_004"
+    ],
+    "related_concepts": [
+      "循环链表"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环链表定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环链表定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_004_A02",
+    "parent_id": "DS_LIST_004",
+    "granularity": "atomic",
+    "name": "循环链表操作过程与复杂度",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演循环链表的操作过程，并分析复杂度。理解循环链表尾结点与头结点的关系及遍历终止条件。",
+    "prerequisites": [
+      "DS_LIST_004",
+      "DS_LIST_004_A01"
+    ],
+    "related_concepts": [
+      "循环链表",
+      "循环链表定义与适用条件"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环链表操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环链表操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_004_A03",
+    "parent_id": "DS_LIST_004",
+    "granularity": "atomic",
+    "name": "循环链表典型题型识别",
+    "module": "线性表",
+    "topic": "链式存储",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别循环链表对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_LIST_004",
+      "DS_LIST_004_A02"
+    ],
+    "related_concepts": [
+      "循环链表",
+      "循环链表操作过程与复杂度"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环链表典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环链表典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_TOPIC_03",
+    "parent_id": "DS_LIST_MODULE",
+    "granularity": "topic",
+    "name": "综合应用",
+    "module": "线性表",
+    "topic": "综合应用",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "综合应用二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_LIST_MODULE"
+    ],
+    "related_concepts": [
+      "线性表"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立综合应用的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出综合应用下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_LIST_005",
+    "parent_id": "DS_LIST_TOPIC_03",
+    "granularity": "concept",
+    "name": "线性表应用题",
+    "module": "线性表",
+    "topic": "综合应用",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "能用顺序表或链表解决合并、逆置、去重等问题。",
+    "prerequisites": [
+      "DS_LIST_TOPIC_03",
+      "DS_LIST_004"
+    ],
+    "related_concepts": [
+      "综合应用",
+      "循环链表"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习线性表应用题的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释线性表应用题，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_LIST_005_A01",
+    "parent_id": "DS_LIST_005",
+    "granularity": "atomic",
+    "name": "线性表应用题定义与适用条件",
+    "module": "线性表",
+    "topic": "综合应用",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明线性表应用题的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_LIST_005"
+    ],
+    "related_concepts": [
+      "线性表应用题"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线性表应用题定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线性表应用题定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_005_A02",
+    "parent_id": "DS_LIST_005",
+    "granularity": "atomic",
+    "name": "线性表应用题操作过程与复杂度",
+    "module": "线性表",
+    "topic": "综合应用",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演线性表应用题的操作过程，并分析复杂度。能用顺序表或链表解决合并、逆置、去重等问题。",
+    "prerequisites": [
+      "DS_LIST_005",
+      "DS_LIST_005_A01"
+    ],
+    "related_concepts": [
+      "线性表应用题",
+      "线性表应用题定义与适用条件"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线性表应用题操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线性表应用题操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_LIST_005_A03",
+    "parent_id": "DS_LIST_005",
+    "granularity": "atomic",
+    "name": "线性表应用题典型题型识别",
+    "module": "线性表",
+    "topic": "综合应用",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别线性表应用题对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_LIST_005",
+      "DS_LIST_005_A02"
+    ],
+    "related_concepts": [
+      "线性表应用题",
+      "线性表应用题操作过程与复杂度"
+    ],
+    "formulas": [
+      "顺序表插入平均移动 n/2 个元素",
+      "单链表查找时间复杂度为 O(n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线性表应用题典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线性表应用题典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "栈与队列",
+    "module": "栈与队列",
+    "topic": "栈与队列",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "栈与队列一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习栈与队列，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明栈与队列模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_STACK_TOPIC_01",
+    "parent_id": "DS_STACK_MODULE",
+    "granularity": "topic",
+    "name": "栈",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "栈二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_STACK_MODULE"
+    ],
+    "related_concepts": [
+      "栈与队列"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立栈的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出栈下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_STACK_001",
+    "parent_id": "DS_STACK_TOPIC_01",
+    "granularity": "concept",
+    "name": "栈的顺序存储",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握栈顶指针变化、入栈出栈条件和溢出判断。",
+    "prerequisites": [
+      "DS_STACK_TOPIC_01"
+    ],
+    "related_concepts": [
+      "栈"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习栈的顺序存储的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释栈的顺序存储，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STACK_001_A01",
+    "parent_id": "DS_STACK_001",
+    "granularity": "atomic",
+    "name": "栈的顺序存储定义与适用条件",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明栈的顺序存储的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STACK_001"
+    ],
+    "related_concepts": [
+      "栈的顺序存储"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的顺序存储定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的顺序存储定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_001_A02",
+    "parent_id": "DS_STACK_001",
+    "granularity": "atomic",
+    "name": "栈的顺序存储操作过程与复杂度",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演栈的顺序存储的操作过程，并分析复杂度。掌握栈顶指针变化、入栈出栈条件和溢出判断。",
+    "prerequisites": [
+      "DS_STACK_001",
+      "DS_STACK_001_A01"
+    ],
+    "related_concepts": [
+      "栈的顺序存储",
+      "栈的顺序存储定义与适用条件"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的顺序存储操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的顺序存储操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_001_A03",
+    "parent_id": "DS_STACK_001",
+    "granularity": "atomic",
+    "name": "栈的顺序存储典型题型识别",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别栈的顺序存储对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STACK_001",
+      "DS_STACK_001_A02"
+    ],
+    "related_concepts": [
+      "栈的顺序存储",
+      "栈的顺序存储操作过程与复杂度"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的顺序存储典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的顺序存储典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_002",
+    "parent_id": "DS_STACK_TOPIC_01",
+    "granularity": "concept",
+    "name": "栈的链式存储",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "理解链栈的头插入与头删除实现。",
+    "prerequisites": [
+      "DS_STACK_TOPIC_01",
+      "DS_STACK_001"
+    ],
+    "related_concepts": [
+      "栈",
+      "栈的顺序存储"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习栈的链式存储的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释栈的链式存储，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STACK_002_A01",
+    "parent_id": "DS_STACK_002",
+    "granularity": "atomic",
+    "name": "栈的链式存储定义与适用条件",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明栈的链式存储的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STACK_002"
+    ],
+    "related_concepts": [
+      "栈的链式存储"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的链式存储定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的链式存储定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_002_A02",
+    "parent_id": "DS_STACK_002",
+    "granularity": "atomic",
+    "name": "栈的链式存储操作过程与复杂度",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演栈的链式存储的操作过程，并分析复杂度。理解链栈的头插入与头删除实现。",
+    "prerequisites": [
+      "DS_STACK_002",
+      "DS_STACK_002_A01"
+    ],
+    "related_concepts": [
+      "栈的链式存储",
+      "栈的链式存储定义与适用条件"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的链式存储操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的链式存储操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_002_A03",
+    "parent_id": "DS_STACK_002",
+    "granularity": "atomic",
+    "name": "栈的链式存储典型题型识别",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别栈的链式存储对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STACK_002",
+      "DS_STACK_002_A02"
+    ],
+    "related_concepts": [
+      "栈的链式存储",
+      "栈的链式存储操作过程与复杂度"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的链式存储典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的链式存储典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_003",
+    "parent_id": "DS_STACK_TOPIC_01",
+    "granularity": "concept",
+    "name": "栈的应用",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握括号匹配、表达式求值和递归模拟。",
+    "prerequisites": [
+      "DS_STACK_TOPIC_01",
+      "DS_STACK_002"
+    ],
+    "related_concepts": [
+      "栈",
+      "栈的链式存储"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习栈的应用的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释栈的应用，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STACK_003_A01",
+    "parent_id": "DS_STACK_003",
+    "granularity": "atomic",
+    "name": "栈的应用定义与适用条件",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明栈的应用的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STACK_003"
+    ],
+    "related_concepts": [
+      "栈的应用"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的应用定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的应用定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_003_A02",
+    "parent_id": "DS_STACK_003",
+    "granularity": "atomic",
+    "name": "栈的应用操作过程与复杂度",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演栈的应用的操作过程，并分析复杂度。掌握括号匹配、表达式求值和递归模拟。",
+    "prerequisites": [
+      "DS_STACK_003",
+      "DS_STACK_003_A01"
+    ],
+    "related_concepts": [
+      "栈的应用",
+      "栈的应用定义与适用条件"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的应用操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的应用操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_003_A03",
+    "parent_id": "DS_STACK_003",
+    "granularity": "atomic",
+    "name": "栈的应用典型题型识别",
+    "module": "栈与队列",
+    "topic": "栈",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别栈的应用对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STACK_003",
+      "DS_STACK_003_A02"
+    ],
+    "related_concepts": [
+      "栈的应用",
+      "栈的应用操作过程与复杂度"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“栈的应用典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“栈的应用典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_TOPIC_02",
+    "parent_id": "DS_STACK_MODULE",
+    "granularity": "topic",
+    "name": "队列",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "主题",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "队列二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_STACK_MODULE"
+    ],
+    "related_concepts": [
+      "栈与队列"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立队列的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出队列下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_STACK_004",
+    "parent_id": "DS_STACK_TOPIC_02",
+    "granularity": "concept",
+    "name": "队列的顺序存储",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "理解队头、队尾指针的移动规则。",
+    "prerequisites": [
+      "DS_STACK_TOPIC_02",
+      "DS_STACK_003"
+    ],
+    "related_concepts": [
+      "队列",
+      "栈的应用"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习队列的顺序存储的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释队列的顺序存储，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STACK_004_A01",
+    "parent_id": "DS_STACK_004",
+    "granularity": "atomic",
+    "name": "队列的顺序存储定义与适用条件",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明队列的顺序存储的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STACK_004"
+    ],
+    "related_concepts": [
+      "队列的顺序存储"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“队列的顺序存储定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“队列的顺序存储定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_004_A02",
+    "parent_id": "DS_STACK_004",
+    "granularity": "atomic",
+    "name": "队列的顺序存储操作过程与复杂度",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演队列的顺序存储的操作过程，并分析复杂度。理解队头、队尾指针的移动规则。",
+    "prerequisites": [
+      "DS_STACK_004",
+      "DS_STACK_004_A01"
+    ],
+    "related_concepts": [
+      "队列的顺序存储",
+      "队列的顺序存储定义与适用条件"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“队列的顺序存储操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“队列的顺序存储操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_004_A03",
+    "parent_id": "DS_STACK_004",
+    "granularity": "atomic",
+    "name": "队列的顺序存储典型题型识别",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别队列的顺序存储对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STACK_004",
+      "DS_STACK_004_A02"
+    ],
+    "related_concepts": [
+      "队列的顺序存储",
+      "队列的顺序存储操作过程与复杂度"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“队列的顺序存储典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“队列的顺序存储典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_005",
+    "parent_id": "DS_STACK_TOPIC_02",
+    "granularity": "concept",
+    "name": "循环队列",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握循环队列判空、判满和长度计算。",
+    "prerequisites": [
+      "DS_STACK_TOPIC_02",
+      "DS_STACK_004"
+    ],
+    "related_concepts": [
+      "队列",
+      "队列的顺序存储"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习循环队列的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释循环队列，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STACK_005_A01",
+    "parent_id": "DS_STACK_005",
+    "granularity": "atomic",
+    "name": "循环队列队空条件",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "判断 front == rear 表示循环队列为空。",
+    "prerequisites": [
+      "DS_STACK_005"
+    ],
+    "related_concepts": [
+      "循环队列"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环队列队空条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环队列队空条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_005_A02",
+    "parent_id": "DS_STACK_005",
+    "granularity": "atomic",
+    "name": "循环队列队满条件",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "掌握牺牲一个存储单元时 (rear + 1) % maxsize == front 表示队满。",
+    "prerequisites": [
+      "DS_STACK_005",
+      "DS_STACK_005_A01"
+    ],
+    "related_concepts": [
+      "循环队列",
+      "循环队列队空条件"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环队列队满条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环队列队满条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_005_A03",
+    "parent_id": "DS_STACK_005",
+    "granularity": "atomic",
+    "name": "循环队列长度计算",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能用 (rear - front + maxsize) % maxsize 计算当前元素个数。",
+    "prerequisites": [
+      "DS_STACK_005",
+      "DS_STACK_005_A02"
+    ],
+    "related_concepts": [
+      "循环队列",
+      "循环队列队满条件"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环队列长度计算”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环队列长度计算”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STACK_005_A04",
+    "parent_id": "DS_STACK_005",
+    "granularity": "atomic",
+    "name": "循环队列入队出队指针变化",
+    "module": "栈与队列",
+    "topic": "队列",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能分别说明入队移动 rear、出队移动 front 的取模更新过程。",
+    "prerequisites": [
+      "DS_STACK_005",
+      "DS_STACK_005_A03"
+    ],
+    "related_concepts": [
+      "循环队列",
+      "循环队列长度计算"
+    ],
+    "formulas": [
+      "栈遵循后进先出 LIFO",
+      "循环队列长度为 (rear - front + maxsize) % maxsize"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“循环队列入队出队指针变化”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“循环队列入队出队指针变化”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "串、数组与广义表",
+    "module": "串、数组与广义表",
+    "topic": "串、数组与广义表",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "串、数组与广义表一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习串、数组与广义表，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明串、数组与广义表模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_STRING_TOPIC_01",
+    "parent_id": "DS_STRING_MODULE",
+    "granularity": "topic",
+    "name": "串",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "主题",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "串二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_STRING_MODULE"
+    ],
+    "related_concepts": [
+      "串、数组与广义表"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立串的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出串下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_STRING_001",
+    "parent_id": "DS_STRING_TOPIC_01",
+    "granularity": "concept",
+    "name": "串的基本概念",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "理解串、子串、主串、模式串和位置的定义。",
+    "prerequisites": [
+      "DS_STRING_TOPIC_01"
+    ],
+    "related_concepts": [
+      "串"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习串的基本概念的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释串的基本概念，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STRING_001_A01",
+    "parent_id": "DS_STRING_001",
+    "granularity": "atomic",
+    "name": "串的基本概念定义与适用条件",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明串的基本概念的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STRING_001"
+    ],
+    "related_concepts": [
+      "串的基本概念"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“串的基本概念定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“串的基本概念定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_001_A02",
+    "parent_id": "DS_STRING_001",
+    "granularity": "atomic",
+    "name": "串的基本概念操作过程与复杂度",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演串的基本概念的操作过程，并分析复杂度。理解串、子串、主串、模式串和位置的定义。",
+    "prerequisites": [
+      "DS_STRING_001",
+      "DS_STRING_001_A01"
+    ],
+    "related_concepts": [
+      "串的基本概念",
+      "串的基本概念定义与适用条件"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“串的基本概念操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“串的基本概念操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_001_A03",
+    "parent_id": "DS_STRING_001",
+    "granularity": "atomic",
+    "name": "串的基本概念典型题型识别",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别串的基本概念对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STRING_001",
+      "DS_STRING_001_A02"
+    ],
+    "related_concepts": [
+      "串的基本概念",
+      "串的基本概念操作过程与复杂度"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“串的基本概念典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“串的基本概念典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_002",
+    "parent_id": "DS_STRING_TOPIC_01",
+    "granularity": "concept",
+    "name": "KMP模式匹配",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "掌握 next 数组含义及利用失配信息减少比较。",
+    "prerequisites": [
+      "DS_STRING_TOPIC_01",
+      "DS_STRING_001"
+    ],
+    "related_concepts": [
+      "串",
+      "串的基本概念"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习KMP模式匹配的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释KMP模式匹配，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STRING_002_A01",
+    "parent_id": "DS_STRING_002",
+    "granularity": "atomic",
+    "name": "KMP模式匹配定义与适用条件",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明KMP模式匹配的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STRING_002"
+    ],
+    "related_concepts": [
+      "KMP模式匹配"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“KMP模式匹配定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“KMP模式匹配定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_002_A02",
+    "parent_id": "DS_STRING_002",
+    "granularity": "atomic",
+    "name": "KMP模式匹配操作过程与复杂度",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演KMP模式匹配的操作过程，并分析复杂度。掌握 next 数组含义及利用失配信息减少比较。",
+    "prerequisites": [
+      "DS_STRING_002",
+      "DS_STRING_002_A01"
+    ],
+    "related_concepts": [
+      "KMP模式匹配",
+      "KMP模式匹配定义与适用条件"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“KMP模式匹配操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“KMP模式匹配操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_002_A03",
+    "parent_id": "DS_STRING_002",
+    "granularity": "atomic",
+    "name": "KMP模式匹配典型题型识别",
+    "module": "串、数组与广义表",
+    "topic": "串",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别KMP模式匹配对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STRING_002",
+      "DS_STRING_002_A02"
+    ],
+    "related_concepts": [
+      "KMP模式匹配",
+      "KMP模式匹配操作过程与复杂度"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“KMP模式匹配典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“KMP模式匹配典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_TOPIC_02",
+    "parent_id": "DS_STRING_MODULE",
+    "granularity": "topic",
+    "name": "数组",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "数组二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_STRING_MODULE"
+    ],
+    "related_concepts": [
+      "串、数组与广义表"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立数组的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出数组下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_STRING_003",
+    "parent_id": "DS_STRING_TOPIC_02",
+    "granularity": "concept",
+    "name": "数组存储地址计算",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "能按行优先或列优先计算多维数组元素地址。",
+    "prerequisites": [
+      "DS_STRING_TOPIC_02",
+      "DS_STRING_002"
+    ],
+    "related_concepts": [
+      "数组",
+      "KMP模式匹配"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习数组存储地址计算的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释数组存储地址计算，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STRING_003_A01",
+    "parent_id": "DS_STRING_003",
+    "granularity": "atomic",
+    "name": "数组存储地址计算定义与适用条件",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明数组存储地址计算的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STRING_003"
+    ],
+    "related_concepts": [
+      "数组存储地址计算"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“数组存储地址计算定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“数组存储地址计算定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_003_A02",
+    "parent_id": "DS_STRING_003",
+    "granularity": "atomic",
+    "name": "数组存储地址计算操作过程与复杂度",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演数组存储地址计算的操作过程，并分析复杂度。能按行优先或列优先计算多维数组元素地址。",
+    "prerequisites": [
+      "DS_STRING_003",
+      "DS_STRING_003_A01"
+    ],
+    "related_concepts": [
+      "数组存储地址计算",
+      "数组存储地址计算定义与适用条件"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“数组存储地址计算操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“数组存储地址计算操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_003_A03",
+    "parent_id": "DS_STRING_003",
+    "granularity": "atomic",
+    "name": "数组存储地址计算典型题型识别",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别数组存储地址计算对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STRING_003",
+      "DS_STRING_003_A02"
+    ],
+    "related_concepts": [
+      "数组存储地址计算",
+      "数组存储地址计算操作过程与复杂度"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“数组存储地址计算典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“数组存储地址计算典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_004",
+    "parent_id": "DS_STRING_TOPIC_02",
+    "granularity": "concept",
+    "name": "特殊矩阵压缩存储",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "掌握对称矩阵、三角矩阵和稀疏矩阵压缩思路。",
+    "prerequisites": [
+      "DS_STRING_TOPIC_02",
+      "DS_STRING_003"
+    ],
+    "related_concepts": [
+      "数组",
+      "数组存储地址计算"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习特殊矩阵压缩存储的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释特殊矩阵压缩存储，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STRING_004_A01",
+    "parent_id": "DS_STRING_004",
+    "granularity": "atomic",
+    "name": "特殊矩阵压缩存储定义与适用条件",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明特殊矩阵压缩存储的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STRING_004"
+    ],
+    "related_concepts": [
+      "特殊矩阵压缩存储"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“特殊矩阵压缩存储定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“特殊矩阵压缩存储定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_004_A02",
+    "parent_id": "DS_STRING_004",
+    "granularity": "atomic",
+    "name": "特殊矩阵压缩存储操作过程与复杂度",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演特殊矩阵压缩存储的操作过程，并分析复杂度。掌握对称矩阵、三角矩阵和稀疏矩阵压缩思路。",
+    "prerequisites": [
+      "DS_STRING_004",
+      "DS_STRING_004_A01"
+    ],
+    "related_concepts": [
+      "特殊矩阵压缩存储",
+      "特殊矩阵压缩存储定义与适用条件"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“特殊矩阵压缩存储操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“特殊矩阵压缩存储操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_004_A03",
+    "parent_id": "DS_STRING_004",
+    "granularity": "atomic",
+    "name": "特殊矩阵压缩存储典型题型识别",
+    "module": "串、数组与广义表",
+    "topic": "数组",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别特殊矩阵压缩存储对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STRING_004",
+      "DS_STRING_004_A02"
+    ],
+    "related_concepts": [
+      "特殊矩阵压缩存储",
+      "特殊矩阵压缩存储操作过程与复杂度"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“特殊矩阵压缩存储典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“特殊矩阵压缩存储典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_TOPIC_03",
+    "parent_id": "DS_STRING_MODULE",
+    "granularity": "topic",
+    "name": "广义表",
+    "module": "串、数组与广义表",
+    "topic": "广义表",
+    "level": "主题",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "广义表二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_STRING_MODULE"
+    ],
+    "related_concepts": [
+      "串、数组与广义表"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立广义表的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出广义表下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_STRING_005",
+    "parent_id": "DS_STRING_TOPIC_03",
+    "granularity": "concept",
+    "name": "广义表深度与长度",
+    "module": "串、数组与广义表",
+    "topic": "广义表",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "能计算广义表的长度、深度并理解表头表尾。",
+    "prerequisites": [
+      "DS_STRING_TOPIC_03",
+      "DS_STRING_004"
+    ],
+    "related_concepts": [
+      "广义表",
+      "特殊矩阵压缩存储"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习广义表深度与长度的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释广义表深度与长度，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_STRING_005_A01",
+    "parent_id": "DS_STRING_005",
+    "granularity": "atomic",
+    "name": "广义表深度与长度定义与适用条件",
+    "module": "串、数组与广义表",
+    "topic": "广义表",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明广义表深度与长度的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_STRING_005"
+    ],
+    "related_concepts": [
+      "广义表深度与长度"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“广义表深度与长度定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“广义表深度与长度定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_005_A02",
+    "parent_id": "DS_STRING_005",
+    "granularity": "atomic",
+    "name": "广义表深度与长度操作过程与复杂度",
+    "module": "串、数组与广义表",
+    "topic": "广义表",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演广义表深度与长度的操作过程，并分析复杂度。能计算广义表的长度、深度并理解表头表尾。",
+    "prerequisites": [
+      "DS_STRING_005",
+      "DS_STRING_005_A01"
+    ],
+    "related_concepts": [
+      "广义表深度与长度",
+      "广义表深度与长度定义与适用条件"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“广义表深度与长度操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“广义表深度与长度操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_STRING_005_A03",
+    "parent_id": "DS_STRING_005",
+    "granularity": "atomic",
+    "name": "广义表深度与长度典型题型识别",
+    "module": "串、数组与广义表",
+    "topic": "广义表",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别广义表深度与长度对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_STRING_005",
+      "DS_STRING_005_A02"
+    ],
+    "related_concepts": [
+      "广义表深度与长度",
+      "广义表深度与长度操作过程与复杂度"
+    ],
+    "formulas": [
+      "KMP利用 next 数组避免主串指针回退",
+      "行优先地址按低维下标变化最快计算"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“广义表深度与长度典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“广义表深度与长度典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "树与二叉树",
+    "module": "树与二叉树",
+    "topic": "树与二叉树",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "树与二叉树一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习树与二叉树，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明树与二叉树模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_TREE_TOPIC_01",
+    "parent_id": "DS_TREE_MODULE",
+    "granularity": "topic",
+    "name": "二叉树基础",
+    "module": "树与二叉树",
+    "topic": "二叉树基础",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "二叉树基础二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_TREE_MODULE"
+    ],
+    "related_concepts": [
+      "树与二叉树"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立二叉树基础的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出二叉树基础下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_TREE_001",
+    "parent_id": "DS_TREE_TOPIC_01",
+    "granularity": "concept",
+    "name": "二叉树基本性质",
+    "module": "树与二叉树",
+    "topic": "二叉树基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握结点数、层数、叶子结点与度为2结点之间的关系。",
+    "prerequisites": [
+      "DS_TREE_TOPIC_01"
+    ],
+    "related_concepts": [
+      "二叉树基础"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习二叉树基本性质的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释二叉树基本性质，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_TREE_001_A01",
+    "parent_id": "DS_TREE_001",
+    "granularity": "atomic",
+    "name": "二叉树第 i 层最大结点数",
+    "module": "树与二叉树",
+    "topic": "二叉树基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能使用第 i 层最多 2^(i-1) 个结点的性质。",
+    "prerequisites": [
+      "DS_TREE_001"
+    ],
+    "related_concepts": [
+      "二叉树基本性质"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“二叉树第 i 层最大结点数”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“二叉树第 i 层最大结点数”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_001_A02",
+    "parent_id": "DS_TREE_001",
+    "granularity": "atomic",
+    "name": "深度为 k 的二叉树最大结点数",
+    "module": "树与二叉树",
+    "topic": "二叉树基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能使用深度为 k 时最多 2^k - 1 个结点的性质。",
+    "prerequisites": [
+      "DS_TREE_001",
+      "DS_TREE_001_A01"
+    ],
+    "related_concepts": [
+      "二叉树基本性质",
+      "二叉树第 i 层最大结点数"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“深度为 k 的二叉树最大结点数”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“深度为 k 的二叉树最大结点数”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_001_A03",
+    "parent_id": "DS_TREE_001",
+    "granularity": "atomic",
+    "name": "叶子结点与度为 2 结点关系",
+    "module": "树与二叉树",
+    "topic": "二叉树基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明任意非空二叉树 n0 = n2 + 1。",
+    "prerequisites": [
+      "DS_TREE_001",
+      "DS_TREE_001_A02"
+    ],
+    "related_concepts": [
+      "二叉树基本性质",
+      "深度为 k 的二叉树最大结点数"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“叶子结点与度为 2 结点关系”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“叶子结点与度为 2 结点关系”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_001_A04",
+    "parent_id": "DS_TREE_001",
+    "granularity": "atomic",
+    "name": "完全二叉树编号性质",
+    "module": "树与二叉树",
+    "topic": "二叉树基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据编号判断父结点、左孩子和右孩子位置。",
+    "prerequisites": [
+      "DS_TREE_001",
+      "DS_TREE_001_A03"
+    ],
+    "related_concepts": [
+      "二叉树基本性质",
+      "叶子结点与度为 2 结点关系"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“完全二叉树编号性质”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“完全二叉树编号性质”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_TOPIC_02",
+    "parent_id": "DS_TREE_MODULE",
+    "granularity": "topic",
+    "name": "二叉树遍历",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "二叉树遍历二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_TREE_MODULE"
+    ],
+    "related_concepts": [
+      "树与二叉树"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立二叉树遍历的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出二叉树遍历下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_TREE_002",
+    "parent_id": "DS_TREE_TOPIC_02",
+    "granularity": "concept",
+    "name": "二叉树遍历",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握先序、中序、后序和层序遍历规则。",
+    "prerequisites": [
+      "DS_TREE_TOPIC_02",
+      "DS_TREE_001"
+    ],
+    "related_concepts": [
+      "二叉树遍历",
+      "二叉树基本性质"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习二叉树遍历的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释二叉树遍历，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_TREE_002_A01",
+    "parent_id": "DS_TREE_002",
+    "granularity": "atomic",
+    "name": "先序遍历规则",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能按根、左、右顺序输出二叉树结点。",
+    "prerequisites": [
+      "DS_TREE_002"
+    ],
+    "related_concepts": [
+      "二叉树遍历"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“先序遍历规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“先序遍历规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_002_A02",
+    "parent_id": "DS_TREE_002",
+    "granularity": "atomic",
+    "name": "中序遍历规则",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能按左、根、右顺序输出二叉树结点。",
+    "prerequisites": [
+      "DS_TREE_002",
+      "DS_TREE_002_A01"
+    ],
+    "related_concepts": [
+      "二叉树遍历",
+      "先序遍历规则"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“中序遍历规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“中序遍历规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_002_A03",
+    "parent_id": "DS_TREE_002",
+    "granularity": "atomic",
+    "name": "后序遍历规则",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能按左、右、根顺序输出二叉树结点。",
+    "prerequisites": [
+      "DS_TREE_002",
+      "DS_TREE_002_A02"
+    ],
+    "related_concepts": [
+      "二叉树遍历",
+      "中序遍历规则"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“后序遍历规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“后序遍历规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_002_A04",
+    "parent_id": "DS_TREE_002",
+    "granularity": "atomic",
+    "name": "层序遍历规则",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能借助队列按层从左到右访问二叉树。",
+    "prerequisites": [
+      "DS_TREE_002",
+      "DS_TREE_002_A03"
+    ],
+    "related_concepts": [
+      "二叉树遍历",
+      "后序遍历规则"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“层序遍历规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“层序遍历规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_003",
+    "parent_id": "DS_TREE_TOPIC_02",
+    "granularity": "concept",
+    "name": "遍历序列还原二叉树",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "能由先序中序或后序中序唯一还原二叉树。",
+    "prerequisites": [
+      "DS_TREE_TOPIC_02",
+      "DS_TREE_002"
+    ],
+    "related_concepts": [
+      "二叉树遍历",
+      "二叉树遍历"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习遍历序列还原二叉树的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释遍历序列还原二叉树，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_TREE_003_A01",
+    "parent_id": "DS_TREE_003",
+    "granularity": "atomic",
+    "name": "先序中序还原二叉树",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能由先序首元素确定根，并在中序中划分左右子树。",
+    "prerequisites": [
+      "DS_TREE_003"
+    ],
+    "related_concepts": [
+      "遍历序列还原二叉树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“先序中序还原二叉树”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“先序中序还原二叉树”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_003_A02",
+    "parent_id": "DS_TREE_003",
+    "granularity": "atomic",
+    "name": "后序中序还原二叉树",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能由后序末元素确定根，并在中序中划分左右子树。",
+    "prerequisites": [
+      "DS_TREE_003",
+      "DS_TREE_003_A01"
+    ],
+    "related_concepts": [
+      "遍历序列还原二叉树",
+      "先序中序还原二叉树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“后序中序还原二叉树”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“后序中序还原二叉树”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_003_A03",
+    "parent_id": "DS_TREE_003",
+    "granularity": "atomic",
+    "name": "遍历还原唯一性条件",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能判断必须包含中序序列才通常能唯一还原二叉树。",
+    "prerequisites": [
+      "DS_TREE_003",
+      "DS_TREE_003_A02"
+    ],
+    "related_concepts": [
+      "遍历序列还原二叉树",
+      "后序中序还原二叉树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“遍历还原唯一性条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“遍历还原唯一性条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_003_A04",
+    "parent_id": "DS_TREE_003",
+    "granularity": "atomic",
+    "name": "还原过程递归划分",
+    "module": "树与二叉树",
+    "topic": "二叉树遍历",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能在左右子树中递归重复定位根结点。",
+    "prerequisites": [
+      "DS_TREE_003",
+      "DS_TREE_003_A03"
+    ],
+    "related_concepts": [
+      "遍历序列还原二叉树",
+      "遍历还原唯一性条件"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“还原过程递归划分”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“还原过程递归划分”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_TOPIC_03",
+    "parent_id": "DS_TREE_MODULE",
+    "granularity": "topic",
+    "name": "二叉树进阶",
+    "module": "树与二叉树",
+    "topic": "二叉树进阶",
+    "level": "主题",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "二叉树进阶二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_TREE_MODULE"
+    ],
+    "related_concepts": [
+      "树与二叉树"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立二叉树进阶的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出二叉树进阶下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_TREE_004",
+    "parent_id": "DS_TREE_TOPIC_03",
+    "granularity": "concept",
+    "name": "线索二叉树",
+    "module": "树与二叉树",
+    "topic": "二叉树进阶",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "理解线索化后空指针域保存前驱和后继。",
+    "prerequisites": [
+      "DS_TREE_TOPIC_03",
+      "DS_TREE_003"
+    ],
+    "related_concepts": [
+      "二叉树进阶",
+      "遍历序列还原二叉树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习线索二叉树的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释线索二叉树，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_TREE_004_A01",
+    "parent_id": "DS_TREE_004",
+    "granularity": "atomic",
+    "name": "线索二叉树定义与适用条件",
+    "module": "树与二叉树",
+    "topic": "二叉树进阶",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明线索二叉树的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_TREE_004"
+    ],
+    "related_concepts": [
+      "线索二叉树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线索二叉树定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线索二叉树定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_004_A02",
+    "parent_id": "DS_TREE_004",
+    "granularity": "atomic",
+    "name": "线索二叉树操作过程与复杂度",
+    "module": "树与二叉树",
+    "topic": "二叉树进阶",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演线索二叉树的操作过程，并分析复杂度。理解线索化后空指针域保存前驱和后继。",
+    "prerequisites": [
+      "DS_TREE_004",
+      "DS_TREE_004_A01"
+    ],
+    "related_concepts": [
+      "线索二叉树",
+      "线索二叉树定义与适用条件"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线索二叉树操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线索二叉树操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_004_A03",
+    "parent_id": "DS_TREE_004",
+    "granularity": "atomic",
+    "name": "线索二叉树典型题型识别",
+    "module": "树与二叉树",
+    "topic": "二叉树进阶",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别线索二叉树对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_TREE_004",
+      "DS_TREE_004_A02"
+    ],
+    "related_concepts": [
+      "线索二叉树",
+      "线索二叉树操作过程与复杂度"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线索二叉树典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线索二叉树典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_TOPIC_04",
+    "parent_id": "DS_TREE_MODULE",
+    "granularity": "topic",
+    "name": "树的应用",
+    "module": "树与二叉树",
+    "topic": "树的应用",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "树的应用二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_TREE_MODULE"
+    ],
+    "related_concepts": [
+      "树与二叉树"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立树的应用的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出树的应用下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_TREE_005",
+    "parent_id": "DS_TREE_TOPIC_04",
+    "granularity": "concept",
+    "name": "哈夫曼树",
+    "module": "树与二叉树",
+    "topic": "树的应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握最优二叉树构造和哈夫曼编码。",
+    "prerequisites": [
+      "DS_TREE_TOPIC_04",
+      "DS_TREE_004"
+    ],
+    "related_concepts": [
+      "树的应用",
+      "线索二叉树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习哈夫曼树的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释哈夫曼树，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_TREE_005_A01",
+    "parent_id": "DS_TREE_005",
+    "granularity": "atomic",
+    "name": "哈夫曼树定义与适用条件",
+    "module": "树与二叉树",
+    "topic": "树的应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明哈夫曼树的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_TREE_005"
+    ],
+    "related_concepts": [
+      "哈夫曼树"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“哈夫曼树定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“哈夫曼树定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_005_A02",
+    "parent_id": "DS_TREE_005",
+    "granularity": "atomic",
+    "name": "哈夫曼树操作过程与复杂度",
+    "module": "树与二叉树",
+    "topic": "树的应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演哈夫曼树的操作过程，并分析复杂度。掌握最优二叉树构造和哈夫曼编码。",
+    "prerequisites": [
+      "DS_TREE_005",
+      "DS_TREE_005_A01"
+    ],
+    "related_concepts": [
+      "哈夫曼树",
+      "哈夫曼树定义与适用条件"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“哈夫曼树操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“哈夫曼树操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_TREE_005_A03",
+    "parent_id": "DS_TREE_005",
+    "granularity": "atomic",
+    "name": "哈夫曼树典型题型识别",
+    "module": "树与二叉树",
+    "topic": "树的应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别哈夫曼树对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_TREE_005",
+      "DS_TREE_005_A02"
+    ],
+    "related_concepts": [
+      "哈夫曼树",
+      "哈夫曼树操作过程与复杂度"
+    ],
+    "formulas": [
+      "二叉树第 i 层最多有 2^{i-1} 个结点",
+      "任意非空二叉树满足 n0 = n2 + 1"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“哈夫曼树典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“哈夫曼树典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "图",
+    "module": "图",
+    "topic": "图",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "图一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习图，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明图模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_GRAPH_TOPIC_01",
+    "parent_id": "DS_GRAPH_MODULE",
+    "granularity": "topic",
+    "name": "图基础",
+    "module": "图",
+    "topic": "图基础",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "图基础二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_GRAPH_MODULE"
+    ],
+    "related_concepts": [
+      "图"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立图基础的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出图基础下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_GRAPH_001",
+    "parent_id": "DS_GRAPH_TOPIC_01",
+    "granularity": "concept",
+    "name": "图的存储结构",
+    "module": "图",
+    "topic": "图基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握邻接矩阵、邻接表及其空间复杂度。",
+    "prerequisites": [
+      "DS_GRAPH_TOPIC_01"
+    ],
+    "related_concepts": [
+      "图基础"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习图的存储结构的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释图的存储结构，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_GRAPH_001_A01",
+    "parent_id": "DS_GRAPH_001",
+    "granularity": "atomic",
+    "name": "图的存储结构定义与适用条件",
+    "module": "图",
+    "topic": "图基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明图的存储结构的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_GRAPH_001"
+    ],
+    "related_concepts": [
+      "图的存储结构"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“图的存储结构定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“图的存储结构定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_001_A02",
+    "parent_id": "DS_GRAPH_001",
+    "granularity": "atomic",
+    "name": "图的存储结构操作过程与复杂度",
+    "module": "图",
+    "topic": "图基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演图的存储结构的操作过程，并分析复杂度。掌握邻接矩阵、邻接表及其空间复杂度。",
+    "prerequisites": [
+      "DS_GRAPH_001",
+      "DS_GRAPH_001_A01"
+    ],
+    "related_concepts": [
+      "图的存储结构",
+      "图的存储结构定义与适用条件"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“图的存储结构操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“图的存储结构操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_001_A03",
+    "parent_id": "DS_GRAPH_001",
+    "granularity": "atomic",
+    "name": "图的存储结构典型题型识别",
+    "module": "图",
+    "topic": "图基础",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别图的存储结构对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_GRAPH_001",
+      "DS_GRAPH_001_A02"
+    ],
+    "related_concepts": [
+      "图的存储结构",
+      "图的存储结构操作过程与复杂度"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“图的存储结构典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“图的存储结构典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_TOPIC_02",
+    "parent_id": "DS_GRAPH_MODULE",
+    "granularity": "topic",
+    "name": "图遍历",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "图遍历二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_GRAPH_MODULE"
+    ],
+    "related_concepts": [
+      "图"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立图遍历的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出图遍历下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_GRAPH_002",
+    "parent_id": "DS_GRAPH_TOPIC_02",
+    "granularity": "concept",
+    "name": "图的DFS遍历",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "理解深度优先搜索及其连通性判断。",
+    "prerequisites": [
+      "DS_GRAPH_TOPIC_02",
+      "DS_GRAPH_001"
+    ],
+    "related_concepts": [
+      "图遍历",
+      "图的存储结构"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习图的DFS遍历的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释图的DFS遍历，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_GRAPH_002_A01",
+    "parent_id": "DS_GRAPH_002",
+    "granularity": "atomic",
+    "name": "DFS 访问规则",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明 DFS 沿未访问邻接点不断深入的访问方式。",
+    "prerequisites": [
+      "DS_GRAPH_002"
+    ],
+    "related_concepts": [
+      "图的DFS遍历"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“DFS 访问规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“DFS 访问规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_002_A02",
+    "parent_id": "DS_GRAPH_002",
+    "granularity": "atomic",
+    "name": "DFS 递归与栈思想",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能解释 DFS 可用递归或栈实现。",
+    "prerequisites": [
+      "DS_GRAPH_002",
+      "DS_GRAPH_002_A01"
+    ],
+    "related_concepts": [
+      "图的DFS遍历",
+      "DFS 访问规则"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“DFS 递归与栈思想”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“DFS 递归与栈思想”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_002_A03",
+    "parent_id": "DS_GRAPH_002",
+    "granularity": "atomic",
+    "name": "DFS 连通性判断",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能用一次 DFS 访问顶点数判断无向图连通性。",
+    "prerequisites": [
+      "DS_GRAPH_002",
+      "DS_GRAPH_002_A02"
+    ],
+    "related_concepts": [
+      "图的DFS遍历",
+      "DFS 递归与栈思想"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“DFS 连通性判断”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“DFS 连通性判断”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_002_A04",
+    "parent_id": "DS_GRAPH_002",
+    "granularity": "atomic",
+    "name": "DFS 生成树",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能识别 DFS 遍历过程中形成的生成树边。",
+    "prerequisites": [
+      "DS_GRAPH_002",
+      "DS_GRAPH_002_A03"
+    ],
+    "related_concepts": [
+      "图的DFS遍历",
+      "DFS 连通性判断"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“DFS 生成树”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“DFS 生成树”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_003",
+    "parent_id": "DS_GRAPH_TOPIC_02",
+    "granularity": "concept",
+    "name": "图的BFS遍历",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "理解广度优先搜索及其最短层次性质。",
+    "prerequisites": [
+      "DS_GRAPH_TOPIC_02",
+      "DS_GRAPH_002"
+    ],
+    "related_concepts": [
+      "图遍历",
+      "图的DFS遍历"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习图的BFS遍历的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释图的BFS遍历，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_GRAPH_003_A01",
+    "parent_id": "DS_GRAPH_003",
+    "granularity": "atomic",
+    "name": "BFS 访问规则",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明 BFS 按距离层次逐层扩展顶点。",
+    "prerequisites": [
+      "DS_GRAPH_003"
+    ],
+    "related_concepts": [
+      "图的BFS遍历"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“BFS 访问规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“BFS 访问规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_003_A02",
+    "parent_id": "DS_GRAPH_003",
+    "granularity": "atomic",
+    "name": "BFS 队列实现",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能解释 BFS 入队、出队和访问标记的顺序。",
+    "prerequisites": [
+      "DS_GRAPH_003",
+      "DS_GRAPH_003_A01"
+    ],
+    "related_concepts": [
+      "图的BFS遍历",
+      "BFS 访问规则"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“BFS 队列实现”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“BFS 队列实现”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_003_A03",
+    "parent_id": "DS_GRAPH_003",
+    "granularity": "atomic",
+    "name": "BFS 最短层次性质",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能判断无权图中 BFS 首次到达对应最少边数路径。",
+    "prerequisites": [
+      "DS_GRAPH_003",
+      "DS_GRAPH_003_A02"
+    ],
+    "related_concepts": [
+      "图的BFS遍历",
+      "BFS 队列实现"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“BFS 最短层次性质”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“BFS 最短层次性质”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_003_A04",
+    "parent_id": "DS_GRAPH_003",
+    "granularity": "atomic",
+    "name": "BFS 与层序遍历关系",
+    "module": "图",
+    "topic": "图遍历",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明 BFS 与二叉树层序遍历的共同队列思想。",
+    "prerequisites": [
+      "DS_GRAPH_003",
+      "DS_GRAPH_003_A03"
+    ],
+    "related_concepts": [
+      "图的BFS遍历",
+      "BFS 最短层次性质"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“BFS 与层序遍历关系”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“BFS 与层序遍历关系”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_TOPIC_03",
+    "parent_id": "DS_GRAPH_MODULE",
+    "granularity": "topic",
+    "name": "图应用",
+    "module": "图",
+    "topic": "图应用",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "图应用二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_GRAPH_MODULE"
+    ],
+    "related_concepts": [
+      "图"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立图应用的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出图应用下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_GRAPH_004",
+    "parent_id": "DS_GRAPH_TOPIC_03",
+    "granularity": "concept",
+    "name": "最小生成树",
+    "module": "图",
+    "topic": "图应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "掌握 Prim 和 Kruskal 算法的选择规则。",
+    "prerequisites": [
+      "DS_GRAPH_TOPIC_03",
+      "DS_GRAPH_003"
+    ],
+    "related_concepts": [
+      "图应用",
+      "图的BFS遍历"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习最小生成树的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释最小生成树，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_GRAPH_004_A01",
+    "parent_id": "DS_GRAPH_004",
+    "granularity": "atomic",
+    "name": "Prim 算法选边规则",
+    "module": "图",
+    "topic": "图应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从已选顶点集合到未选顶点集合中选择最小边。",
+    "prerequisites": [
+      "DS_GRAPH_004"
+    ],
+    "related_concepts": [
+      "最小生成树"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“Prim 算法选边规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“Prim 算法选边规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_004_A02",
+    "parent_id": "DS_GRAPH_004",
+    "granularity": "atomic",
+    "name": "Kruskal 算法选边规则",
+    "module": "图",
+    "topic": "图应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能按边权从小到大选取不构成回路的边。",
+    "prerequisites": [
+      "DS_GRAPH_004",
+      "DS_GRAPH_004_A01"
+    ],
+    "related_concepts": [
+      "最小生成树",
+      "Prim 算法选边规则"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“Kruskal 算法选边规则”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“Kruskal 算法选边规则”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_004_A03",
+    "parent_id": "DS_GRAPH_004",
+    "granularity": "atomic",
+    "name": "最小生成树适用条件",
+    "module": "图",
+    "topic": "图应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明 MST 面向连通无向带权图。",
+    "prerequisites": [
+      "DS_GRAPH_004",
+      "DS_GRAPH_004_A02"
+    ],
+    "related_concepts": [
+      "最小生成树",
+      "Kruskal 算法选边规则"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“最小生成树适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“最小生成树适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_004_A04",
+    "parent_id": "DS_GRAPH_004",
+    "granularity": "atomic",
+    "name": "MST 与最短路径区别",
+    "module": "图",
+    "topic": "图应用",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能区分总权值最小的生成树和源点到各点最短路径。",
+    "prerequisites": [
+      "DS_GRAPH_004",
+      "DS_GRAPH_004_A03"
+    ],
+    "related_concepts": [
+      "最小生成树",
+      "最小生成树适用条件"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“MST 与最短路径区别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“MST 与最短路径区别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_005",
+    "parent_id": "DS_GRAPH_TOPIC_03",
+    "granularity": "concept",
+    "name": "最短路径",
+    "module": "图",
+    "topic": "图应用",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "掌握 Dijkstra 和 Floyd 的适用条件与更新过程。",
+    "prerequisites": [
+      "DS_GRAPH_TOPIC_03",
+      "DS_GRAPH_004"
+    ],
+    "related_concepts": [
+      "图应用",
+      "最小生成树"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习最短路径的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释最短路径，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_GRAPH_005_A01",
+    "parent_id": "DS_GRAPH_005",
+    "granularity": "atomic",
+    "name": "Dijkstra 适用条件",
+    "module": "图",
+    "topic": "图应用",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能判断 Dijkstra 适用于非负权单源最短路径。",
+    "prerequisites": [
+      "DS_GRAPH_005"
+    ],
+    "related_concepts": [
+      "最短路径"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“Dijkstra 适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“Dijkstra 适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_005_A02",
+    "parent_id": "DS_GRAPH_005",
+    "granularity": "atomic",
+    "name": "Dijkstra 松弛更新",
+    "module": "图",
+    "topic": "图应用",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据新中间顶点更新 dist 数组。",
+    "prerequisites": [
+      "DS_GRAPH_005",
+      "DS_GRAPH_005_A01"
+    ],
+    "related_concepts": [
+      "最短路径",
+      "Dijkstra 适用条件"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“Dijkstra 松弛更新”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“Dijkstra 松弛更新”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_005_A03",
+    "parent_id": "DS_GRAPH_005",
+    "granularity": "atomic",
+    "name": "Floyd 中间顶点更新",
+    "module": "图",
+    "topic": "图应用",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能使用 dist[i][k] + dist[k][j] 更新任意两点最短路径。",
+    "prerequisites": [
+      "DS_GRAPH_005",
+      "DS_GRAPH_005_A02"
+    ],
+    "related_concepts": [
+      "最短路径",
+      "Dijkstra 松弛更新"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“Floyd 中间顶点更新”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“Floyd 中间顶点更新”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_GRAPH_005_A04",
+    "parent_id": "DS_GRAPH_005",
+    "granularity": "atomic",
+    "name": "Dijkstra 与 Floyd 对比",
+    "module": "图",
+    "topic": "图应用",
+    "level": "难点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能区分单源最短路径和多源最短路径算法。",
+    "prerequisites": [
+      "DS_GRAPH_005",
+      "DS_GRAPH_005_A03"
+    ],
+    "related_concepts": [
+      "最短路径",
+      "Floyd 中间顶点更新"
+    ],
+    "formulas": [
+      "邻接矩阵空间复杂度 O(n^2)",
+      "Dijkstra每轮选取当前最短的未确定顶点"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“Dijkstra 与 Floyd 对比”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“Dijkstra 与 Floyd 对比”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "查找",
+    "module": "查找",
+    "topic": "查找",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "查找一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习查找，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明查找模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_SEARCH_TOPIC_01",
+    "parent_id": "DS_SEARCH_MODULE",
+    "granularity": "topic",
+    "name": "线性查找",
+    "module": "查找",
+    "topic": "线性查找",
+    "level": "主题",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "线性查找二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SEARCH_MODULE"
+    ],
+    "related_concepts": [
+      "查找"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立线性查找的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出线性查找下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SEARCH_001",
+    "parent_id": "DS_SEARCH_TOPIC_01",
+    "granularity": "concept",
+    "name": "顺序查找",
+    "module": "查找",
+    "topic": "线性查找",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "理解顺序查找的比较过程和平均查找长度。",
+    "prerequisites": [
+      "DS_SEARCH_TOPIC_01"
+    ],
+    "related_concepts": [
+      "线性查找"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习顺序查找的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释顺序查找，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SEARCH_001_A01",
+    "parent_id": "DS_SEARCH_001",
+    "granularity": "atomic",
+    "name": "顺序查找定义与适用条件",
+    "module": "查找",
+    "topic": "线性查找",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明顺序查找的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SEARCH_001"
+    ],
+    "related_concepts": [
+      "顺序查找"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“顺序查找定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“顺序查找定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_001_A02",
+    "parent_id": "DS_SEARCH_001",
+    "granularity": "atomic",
+    "name": "顺序查找操作过程与复杂度",
+    "module": "查找",
+    "topic": "线性查找",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演顺序查找的操作过程，并分析复杂度。理解顺序查找的比较过程和平均查找长度。",
+    "prerequisites": [
+      "DS_SEARCH_001",
+      "DS_SEARCH_001_A01"
+    ],
+    "related_concepts": [
+      "顺序查找",
+      "顺序查找定义与适用条件"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“顺序查找操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“顺序查找操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_001_A03",
+    "parent_id": "DS_SEARCH_001",
+    "granularity": "atomic",
+    "name": "顺序查找典型题型识别",
+    "module": "查找",
+    "topic": "线性查找",
+    "level": "基础",
+    "importance": 3,
+    "exam_frequency": 3,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别顺序查找对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SEARCH_001",
+      "DS_SEARCH_001_A02"
+    ],
+    "related_concepts": [
+      "顺序查找",
+      "顺序查找操作过程与复杂度"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“顺序查找典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“顺序查找典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_TOPIC_02",
+    "parent_id": "DS_SEARCH_MODULE",
+    "granularity": "topic",
+    "name": "有序表查找",
+    "module": "查找",
+    "topic": "有序表查找",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "有序表查找二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SEARCH_MODULE"
+    ],
+    "related_concepts": [
+      "查找"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立有序表查找的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出有序表查找下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SEARCH_002",
+    "parent_id": "DS_SEARCH_TOPIC_02",
+    "granularity": "concept",
+    "name": "折半查找",
+    "module": "查找",
+    "topic": "有序表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握折半查找判定树和查找次数分析。",
+    "prerequisites": [
+      "DS_SEARCH_TOPIC_02",
+      "DS_SEARCH_001"
+    ],
+    "related_concepts": [
+      "有序表查找",
+      "顺序查找"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习折半查找的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释折半查找，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SEARCH_002_A01",
+    "parent_id": "DS_SEARCH_002",
+    "granularity": "atomic",
+    "name": "折半查找前提条件",
+    "module": "查找",
+    "topic": "有序表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能判断折半查找要求有序且顺序存储。",
+    "prerequisites": [
+      "DS_SEARCH_002"
+    ],
+    "related_concepts": [
+      "折半查找"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“折半查找前提条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“折半查找前提条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_002_A02",
+    "parent_id": "DS_SEARCH_002",
+    "granularity": "atomic",
+    "name": "折半查找 mid 计算",
+    "module": "查找",
+    "topic": "有序表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据 low、high 计算 mid 并更新查找区间。",
+    "prerequisites": [
+      "DS_SEARCH_002",
+      "DS_SEARCH_002_A01"
+    ],
+    "related_concepts": [
+      "折半查找",
+      "折半查找前提条件"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“折半查找 mid 计算”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“折半查找 mid 计算”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_002_A03",
+    "parent_id": "DS_SEARCH_002",
+    "granularity": "atomic",
+    "name": "折半查找判定树",
+    "module": "查找",
+    "topic": "有序表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据有序表长度画出或分析判定树。",
+    "prerequisites": [
+      "DS_SEARCH_002",
+      "DS_SEARCH_002_A02"
+    ],
+    "related_concepts": [
+      "折半查找",
+      "折半查找 mid 计算"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“折半查找判定树”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“折半查找判定树”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_002_A04",
+    "parent_id": "DS_SEARCH_002",
+    "granularity": "atomic",
+    "name": "折半查找比较次数",
+    "module": "查找",
+    "topic": "有序表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能估计成功或失败查找的比较次数。",
+    "prerequisites": [
+      "DS_SEARCH_002",
+      "DS_SEARCH_002_A03"
+    ],
+    "related_concepts": [
+      "折半查找",
+      "折半查找判定树"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“折半查找比较次数”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“折半查找比较次数”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_TOPIC_03",
+    "parent_id": "DS_SEARCH_MODULE",
+    "granularity": "topic",
+    "name": "树表查找",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "树表查找二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SEARCH_MODULE"
+    ],
+    "related_concepts": [
+      "查找"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立树表查找的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出树表查找下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SEARCH_003",
+    "parent_id": "DS_SEARCH_TOPIC_03",
+    "granularity": "concept",
+    "name": "二叉排序树",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握二叉排序树插入、删除和查找过程。",
+    "prerequisites": [
+      "DS_SEARCH_TOPIC_03",
+      "DS_SEARCH_002"
+    ],
+    "related_concepts": [
+      "树表查找",
+      "折半查找"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习二叉排序树的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释二叉排序树，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SEARCH_003_A01",
+    "parent_id": "DS_SEARCH_003",
+    "granularity": "atomic",
+    "name": "二叉排序树定义与适用条件",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明二叉排序树的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SEARCH_003"
+    ],
+    "related_concepts": [
+      "二叉排序树"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“二叉排序树定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“二叉排序树定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_003_A02",
+    "parent_id": "DS_SEARCH_003",
+    "granularity": "atomic",
+    "name": "二叉排序树操作过程与复杂度",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演二叉排序树的操作过程，并分析复杂度。掌握二叉排序树插入、删除和查找过程。",
+    "prerequisites": [
+      "DS_SEARCH_003",
+      "DS_SEARCH_003_A01"
+    ],
+    "related_concepts": [
+      "二叉排序树",
+      "二叉排序树定义与适用条件"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“二叉排序树操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“二叉排序树操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_003_A03",
+    "parent_id": "DS_SEARCH_003",
+    "granularity": "atomic",
+    "name": "二叉排序树典型题型识别",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别二叉排序树对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SEARCH_003",
+      "DS_SEARCH_003_A02"
+    ],
+    "related_concepts": [
+      "二叉排序树",
+      "二叉排序树操作过程与复杂度"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“二叉排序树典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“二叉排序树典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_004",
+    "parent_id": "DS_SEARCH_TOPIC_03",
+    "granularity": "concept",
+    "name": "平衡二叉树",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "难点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "理解 AVL 树失衡类型和旋转调整。",
+    "prerequisites": [
+      "DS_SEARCH_TOPIC_03",
+      "DS_SEARCH_003"
+    ],
+    "related_concepts": [
+      "树表查找",
+      "二叉排序树"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习平衡二叉树的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释平衡二叉树，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SEARCH_004_A01",
+    "parent_id": "DS_SEARCH_004",
+    "granularity": "atomic",
+    "name": "平衡二叉树定义与适用条件",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "难点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能说明平衡二叉树的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SEARCH_004"
+    ],
+    "related_concepts": [
+      "平衡二叉树"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“平衡二叉树定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“平衡二叉树定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_004_A02",
+    "parent_id": "DS_SEARCH_004",
+    "granularity": "atomic",
+    "name": "平衡二叉树操作过程与复杂度",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "难点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能根据题目要求推演平衡二叉树的操作过程，并分析复杂度。理解 AVL 树失衡类型和旋转调整。",
+    "prerequisites": [
+      "DS_SEARCH_004",
+      "DS_SEARCH_004_A01"
+    ],
+    "related_concepts": [
+      "平衡二叉树",
+      "平衡二叉树定义与适用条件"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“平衡二叉树操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“平衡二叉树操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_004_A03",
+    "parent_id": "DS_SEARCH_004",
+    "granularity": "atomic",
+    "name": "平衡二叉树典型题型识别",
+    "module": "查找",
+    "topic": "树表查找",
+    "level": "难点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 3,
+    "description": "能从题干条件识别平衡二叉树对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SEARCH_004",
+      "DS_SEARCH_004_A02"
+    ],
+    "related_concepts": [
+      "平衡二叉树",
+      "平衡二叉树操作过程与复杂度"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“平衡二叉树典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“平衡二叉树典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_TOPIC_04",
+    "parent_id": "DS_SEARCH_MODULE",
+    "granularity": "topic",
+    "name": "散列表",
+    "module": "查找",
+    "topic": "散列表",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "散列表二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SEARCH_MODULE"
+    ],
+    "related_concepts": [
+      "查找"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立散列表的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出散列表下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SEARCH_005",
+    "parent_id": "DS_SEARCH_TOPIC_04",
+    "granularity": "concept",
+    "name": "哈希表",
+    "module": "查找",
+    "topic": "散列表",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "掌握散列函数、冲突处理和平均查找长度。",
+    "prerequisites": [
+      "DS_SEARCH_TOPIC_04",
+      "DS_SEARCH_004"
+    ],
+    "related_concepts": [
+      "散列表",
+      "平衡二叉树"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习哈希表的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释哈希表，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SEARCH_005_A01",
+    "parent_id": "DS_SEARCH_005",
+    "granularity": "atomic",
+    "name": "哈希函数构造",
+    "module": "查找",
+    "topic": "散列表",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明常见散列函数设计目标是均匀分布。",
+    "prerequisites": [
+      "DS_SEARCH_005"
+    ],
+    "related_concepts": [
+      "哈希表"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“哈希函数构造”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“哈希函数构造”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_005_A02",
+    "parent_id": "DS_SEARCH_005",
+    "granularity": "atomic",
+    "name": "线性探测处理冲突",
+    "module": "查找",
+    "topic": "散列表",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能按线性探测序列处理哈希冲突。",
+    "prerequisites": [
+      "DS_SEARCH_005",
+      "DS_SEARCH_005_A01"
+    ],
+    "related_concepts": [
+      "哈希表",
+      "哈希函数构造"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“线性探测处理冲突”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“线性探测处理冲突”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_005_A03",
+    "parent_id": "DS_SEARCH_005",
+    "granularity": "atomic",
+    "name": "链地址法处理冲突",
+    "module": "查找",
+    "topic": "散列表",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明同义词结点挂入同一散列地址链表。",
+    "prerequisites": [
+      "DS_SEARCH_005",
+      "DS_SEARCH_005_A02"
+    ],
+    "related_concepts": [
+      "哈希表",
+      "线性探测处理冲突"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“链地址法处理冲突”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“链地址法处理冲突”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SEARCH_005_A04",
+    "parent_id": "DS_SEARCH_005",
+    "granularity": "atomic",
+    "name": "哈希表平均查找长度",
+    "module": "查找",
+    "topic": "散列表",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据查找路径计算成功或失败 ASL。",
+    "prerequisites": [
+      "DS_SEARCH_005",
+      "DS_SEARCH_005_A03"
+    ],
+    "related_concepts": [
+      "哈希表",
+      "链地址法处理冲突"
+    ],
+    "formulas": [
+      "折半查找要求线性表有序且顺序存储",
+      "装填因子影响哈希表查找效率"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“哈希表平均查找长度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“哈希表平均查找长度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_MODULE",
+    "parent_id": "",
+    "granularity": "module",
+    "name": "排序",
+    "module": "排序",
+    "topic": "排序",
+    "level": "模块",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "排序一级模块，用于组织本模块下的主题、知识点和原子知识点。",
+    "prerequisites": [],
+    "related_concepts": [],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "按主题顺序复习排序，再进入原子知识点练习。",
+    "mastery_criteria": "能够说明排序模块的核心主题和高频考点分布。"
+  },
+  {
+    "id": "DS_SORT_TOPIC_01",
+    "parent_id": "DS_SORT_MODULE",
+    "granularity": "topic",
+    "name": "插入类排序",
+    "module": "排序",
+    "topic": "插入类排序",
+    "level": "主题",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "插入类排序二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SORT_MODULE"
+    ],
+    "related_concepts": [
+      "排序"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立插入类排序的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出插入类排序下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SORT_001",
+    "parent_id": "DS_SORT_TOPIC_01",
+    "granularity": "concept",
+    "name": "插入排序",
+    "module": "排序",
+    "topic": "插入类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "掌握直接插入排序和希尔排序的过程。",
+    "prerequisites": [
+      "DS_SORT_TOPIC_01"
+    ],
+    "related_concepts": [
+      "插入类排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习插入排序的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释插入排序，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SORT_001_A01",
+    "parent_id": "DS_SORT_001",
+    "granularity": "atomic",
+    "name": "插入排序定义与适用条件",
+    "module": "排序",
+    "topic": "插入类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明插入排序的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SORT_001"
+    ],
+    "related_concepts": [
+      "插入排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“插入排序定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“插入排序定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_001_A02",
+    "parent_id": "DS_SORT_001",
+    "granularity": "atomic",
+    "name": "插入排序操作过程与复杂度",
+    "module": "排序",
+    "topic": "插入类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演插入排序的操作过程，并分析复杂度。掌握直接插入排序和希尔排序的过程。",
+    "prerequisites": [
+      "DS_SORT_001",
+      "DS_SORT_001_A01"
+    ],
+    "related_concepts": [
+      "插入排序",
+      "插入排序定义与适用条件"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“插入排序操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“插入排序操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_001_A03",
+    "parent_id": "DS_SORT_001",
+    "granularity": "atomic",
+    "name": "插入排序典型题型识别",
+    "module": "排序",
+    "topic": "插入类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别插入排序对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SORT_001",
+      "DS_SORT_001_A02"
+    ],
+    "related_concepts": [
+      "插入排序",
+      "插入排序操作过程与复杂度"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“插入排序典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“插入排序典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_TOPIC_02",
+    "parent_id": "DS_SORT_MODULE",
+    "granularity": "topic",
+    "name": "交换类排序",
+    "module": "排序",
+    "topic": "交换类排序",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "交换类排序二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SORT_MODULE"
+    ],
+    "related_concepts": [
+      "排序"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立交换类排序的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出交换类排序下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SORT_002",
+    "parent_id": "DS_SORT_TOPIC_02",
+    "granularity": "concept",
+    "name": "交换排序",
+    "module": "排序",
+    "topic": "交换类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "掌握冒泡排序和快速排序的划分过程。",
+    "prerequisites": [
+      "DS_SORT_TOPIC_02",
+      "DS_SORT_001"
+    ],
+    "related_concepts": [
+      "交换类排序",
+      "插入排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习交换排序的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释交换排序，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SORT_002_A01",
+    "parent_id": "DS_SORT_002",
+    "granularity": "atomic",
+    "name": "交换排序定义与适用条件",
+    "module": "排序",
+    "topic": "交换类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明交换排序的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SORT_002"
+    ],
+    "related_concepts": [
+      "交换排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“交换排序定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“交换排序定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_002_A02",
+    "parent_id": "DS_SORT_002",
+    "granularity": "atomic",
+    "name": "交换排序操作过程与复杂度",
+    "module": "排序",
+    "topic": "交换类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演交换排序的操作过程，并分析复杂度。掌握冒泡排序和快速排序的划分过程。",
+    "prerequisites": [
+      "DS_SORT_002",
+      "DS_SORT_002_A01"
+    ],
+    "related_concepts": [
+      "交换排序",
+      "交换排序定义与适用条件"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“交换排序操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“交换排序操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_002_A03",
+    "parent_id": "DS_SORT_002",
+    "granularity": "atomic",
+    "name": "交换排序典型题型识别",
+    "module": "排序",
+    "topic": "交换类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别交换排序对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SORT_002",
+      "DS_SORT_002_A02"
+    ],
+    "related_concepts": [
+      "交换排序",
+      "交换排序操作过程与复杂度"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“交换排序典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“交换排序典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_TOPIC_03",
+    "parent_id": "DS_SORT_MODULE",
+    "granularity": "topic",
+    "name": "选择类排序",
+    "module": "排序",
+    "topic": "选择类排序",
+    "level": "主题",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "选择类排序二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SORT_MODULE"
+    ],
+    "related_concepts": [
+      "排序"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立选择类排序的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出选择类排序下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SORT_003",
+    "parent_id": "DS_SORT_TOPIC_03",
+    "granularity": "concept",
+    "name": "选择排序",
+    "module": "排序",
+    "topic": "选择类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "掌握简单选择排序和堆排序的特点。",
+    "prerequisites": [
+      "DS_SORT_TOPIC_03",
+      "DS_SORT_002"
+    ],
+    "related_concepts": [
+      "选择类排序",
+      "交换排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习选择排序的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释选择排序，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SORT_003_A01",
+    "parent_id": "DS_SORT_003",
+    "granularity": "atomic",
+    "name": "选择排序定义与适用条件",
+    "module": "排序",
+    "topic": "选择类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能说明选择排序的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SORT_003"
+    ],
+    "related_concepts": [
+      "选择排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“选择排序定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“选择排序定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_003_A02",
+    "parent_id": "DS_SORT_003",
+    "granularity": "atomic",
+    "name": "选择排序操作过程与复杂度",
+    "module": "排序",
+    "topic": "选择类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据题目要求推演选择排序的操作过程，并分析复杂度。掌握简单选择排序和堆排序的特点。",
+    "prerequisites": [
+      "DS_SORT_003",
+      "DS_SORT_003_A01"
+    ],
+    "related_concepts": [
+      "选择排序",
+      "选择排序定义与适用条件"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“选择排序操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“选择排序操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_003_A03",
+    "parent_id": "DS_SORT_003",
+    "granularity": "atomic",
+    "name": "选择排序典型题型识别",
+    "module": "排序",
+    "topic": "选择类排序",
+    "level": "重点",
+    "importance": 4,
+    "exam_frequency": 4,
+    "difficulty": 2,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能从题干条件识别选择排序对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SORT_003",
+      "DS_SORT_003_A02"
+    ],
+    "related_concepts": [
+      "选择排序",
+      "选择排序操作过程与复杂度"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“选择排序典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“选择排序典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_TOPIC_04",
+    "parent_id": "DS_SORT_MODULE",
+    "granularity": "topic",
+    "name": "归并类排序",
+    "module": "排序",
+    "topic": "归并类排序",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "归并类排序二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SORT_MODULE"
+    ],
+    "related_concepts": [
+      "排序"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立归并类排序的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出归并类排序下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SORT_004",
+    "parent_id": "DS_SORT_TOPIC_04",
+    "granularity": "concept",
+    "name": "归并排序",
+    "module": "排序",
+    "topic": "归并类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": false,
+    "practice_priority": 1,
+    "description": "理解二路归并排序的分治过程和空间代价。",
+    "prerequisites": [
+      "DS_SORT_TOPIC_04",
+      "DS_SORT_003"
+    ],
+    "related_concepts": [
+      "归并类排序",
+      "选择排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习归并排序的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释归并排序，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SORT_004_A01",
+    "parent_id": "DS_SORT_004",
+    "granularity": "atomic",
+    "name": "归并排序定义与适用条件",
+    "module": "排序",
+    "topic": "归并类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能说明归并排序的核心定义、适用条件和边界情况。",
+    "prerequisites": [
+      "DS_SORT_004"
+    ],
+    "related_concepts": [
+      "归并排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“归并排序定义与适用条件”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“归并排序定义与适用条件”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_004_A02",
+    "parent_id": "DS_SORT_004",
+    "granularity": "atomic",
+    "name": "归并排序操作过程与复杂度",
+    "module": "排序",
+    "topic": "归并类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能根据题目要求推演归并排序的操作过程，并分析复杂度。理解二路归并排序的分治过程和空间代价。",
+    "prerequisites": [
+      "DS_SORT_004",
+      "DS_SORT_004_A01"
+    ],
+    "related_concepts": [
+      "归并排序",
+      "归并排序定义与适用条件"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“归并排序操作过程与复杂度”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“归并排序操作过程与复杂度”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_004_A03",
+    "parent_id": "DS_SORT_004",
+    "granularity": "atomic",
+    "name": "归并排序典型题型识别",
+    "module": "排序",
+    "topic": "归并类排序",
+    "level": "重点",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 3,
+    "diagnosable": true,
+    "practice_priority": 1,
+    "description": "能从题干条件识别归并排序对应的常见考法和易错点。",
+    "prerequisites": [
+      "DS_SORT_004",
+      "DS_SORT_004_A02"
+    ],
+    "related_concepts": [
+      "归并排序",
+      "归并排序操作过程与复杂度"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“归并排序典型题型识别”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“归并排序典型题型识别”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_TOPIC_05",
+    "parent_id": "DS_SORT_MODULE",
+    "granularity": "topic",
+    "name": "排序综合",
+    "module": "排序",
+    "topic": "排序综合",
+    "level": "主题",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 3,
+    "description": "排序综合二级主题，用于聚合相关知识点。",
+    "prerequisites": [
+      "DS_SORT_MODULE"
+    ],
+    "related_concepts": [
+      "排序"
+    ],
+    "formulas": [],
+    "common_mistakes": [],
+    "question_types": [],
+    "learning_suggestion": "先建立排序综合的整体框架，再拆解为可练习的原子知识点。",
+    "mastery_criteria": "能够列出排序综合下的主要知识点并说明学习顺序。"
+  },
+  {
+    "id": "DS_SORT_005",
+    "parent_id": "DS_SORT_TOPIC_05",
+    "granularity": "concept",
+    "name": "排序算法比较",
+    "module": "排序",
+    "topic": "排序综合",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": false,
+    "practice_priority": 2,
+    "description": "比较常见排序算法的复杂度、稳定性和适用场景。",
+    "prerequisites": [
+      "DS_SORT_TOPIC_05",
+      "DS_SORT_004"
+    ],
+    "related_concepts": [
+      "排序综合",
+      "归并排序"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "先复习排序算法比较的定义和操作过程，再配合典型例题巩固边界条件。",
+    "mastery_criteria": "能够独立解释排序算法比较，完成相关基础题和中等难度应用题。"
+  },
+  {
+    "id": "DS_SORT_005_A01",
+    "parent_id": "DS_SORT_005",
+    "granularity": "atomic",
+    "name": "排序时间复杂度比较",
+    "module": "排序",
+    "topic": "排序综合",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能比较常见排序算法最好、平均、最坏时间复杂度。",
+    "prerequisites": [
+      "DS_SORT_005"
+    ],
+    "related_concepts": [
+      "排序算法比较"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“排序时间复杂度比较”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“排序时间复杂度比较”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_005_A02",
+    "parent_id": "DS_SORT_005",
+    "granularity": "atomic",
+    "name": "排序空间复杂度比较",
+    "module": "排序",
+    "topic": "排序综合",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能比较原地排序与需要辅助数组的排序。",
+    "prerequisites": [
+      "DS_SORT_005",
+      "DS_SORT_005_A01"
+    ],
+    "related_concepts": [
+      "排序算法比较",
+      "排序时间复杂度比较"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“排序空间复杂度比较”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“排序空间复杂度比较”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_005_A03",
+    "parent_id": "DS_SORT_005",
+    "granularity": "atomic",
+    "name": "排序稳定性判断",
+    "module": "排序",
+    "topic": "排序综合",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能判断相等关键字相对次序是否保持。",
+    "prerequisites": [
+      "DS_SORT_005",
+      "DS_SORT_005_A02"
+    ],
+    "related_concepts": [
+      "排序算法比较",
+      "排序空间复杂度比较"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“排序稳定性判断”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“排序稳定性判断”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  },
+  {
+    "id": "DS_SORT_005_A04",
+    "parent_id": "DS_SORT_005",
+    "granularity": "atomic",
+    "name": "排序适用场景选择",
+    "module": "排序",
+    "topic": "排序综合",
+    "level": "综合",
+    "importance": 5,
+    "exam_frequency": 5,
+    "difficulty": 4,
+    "diagnosable": true,
+    "practice_priority": 2,
+    "description": "能根据规模、有序性和稳定性要求选择排序算法。",
+    "prerequisites": [
+      "DS_SORT_005",
+      "DS_SORT_005_A03"
+    ],
+    "related_concepts": [
+      "排序算法比较",
+      "排序稳定性判断"
+    ],
+    "formulas": [
+      "快速排序平均时间复杂度 O(n log n)",
+      "稳定排序不改变相等关键字的相对次序"
+    ],
+    "common_mistakes": [
+      "只记结论不理解适用条件",
+      "忽略边界情况或空结构情况",
+      "把相似概念的操作步骤混用"
+    ],
+    "question_types": [
+      "选择题",
+      "填空题",
+      "计算题"
+    ],
+    "learning_suggestion": "围绕“排序适用场景选择”单独完成概念辨析、过程推演和错因复盘。",
+    "mastery_criteria": "学生能够独立回答“排序适用场景选择”相关题目，并能解释适用条件、操作步骤和常见错误。"
+  }
+]

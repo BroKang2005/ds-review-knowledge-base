@@ -31,7 +31,28 @@ def get_concepts_by_difficulty(kb: dict, difficulty: int) -> list[dict]:
 
 
 def get_questions_by_concept(kb: dict, concept_id: str) -> list[dict]:
-    return [question for question in kb["questions"] if concept_id in question.get("knowledge_points", [])]
+    target_ids = {concept_id, *get_descendant_ids(kb, concept_id)}
+    return [
+        question
+        for question in kb["questions"]
+        if any(item in target_ids for item in question.get("knowledge_points", []))
+    ]
+
+
+def get_descendant_ids(kb: dict, concept_id: str) -> list[str]:
+    children_by_parent: dict[str, list[str]] = {}
+    for concept in kb["concepts"]:
+        parent_id = concept.get("parent_id")
+        if parent_id:
+            children_by_parent.setdefault(parent_id, []).append(concept["id"])
+
+    descendants: list[str] = []
+    stack = list(children_by_parent.get(concept_id, []))
+    while stack:
+        current = stack.pop()
+        descendants.append(current)
+        stack.extend(children_by_parent.get(current, []))
+    return descendants
 
 
 def get_prerequisites(kb: dict, concept_id: str) -> list[dict]:
