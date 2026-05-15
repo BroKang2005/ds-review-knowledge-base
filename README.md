@@ -1,5 +1,53 @@
 # ds-review-knowledge-base
 
+# 数据结构智能复习助手
+
+这是一个基于数据结构知识库和规则驱动多智能体协同机制的软件原型，面向高校学生期末复习场景。
+
+## 功能
+
+- 知识点问答与个性化讲解
+- 章节复习与学习路径规划
+- 题目推荐与做题练习
+- 错题诊断与复习建议
+- 学生画像更新
+- 阶段性复习总结
+- Agent API 管理与本地调用日志
+
+## 运行
+
+```bash
+pip install -r requirements.txt
+python scripts/init_demo_data.py
+streamlit run app/streamlit_app.py
+```
+
+也可以运行命令行 smoke demo：
+
+```bash
+python main.py
+```
+
+## 检查知识库
+
+```bash
+python scripts/validate_kb.py
+python scripts/kb_stats.py
+```
+
+## 目录说明
+
+- `app/`: Streamlit 前端页面。
+- `backend/`: 服务层和统一 API。
+- `backend/agent_api_manager.py`: 智能体 API 注册、调用、校验和日志管理。
+- `orchestrator/`: 多智能体调度器。
+- `agents/`: 七个规则驱动智能体。
+- `knowledge_base/data/`: 已有数据结构知识库 JSON。
+- `data/`: 学生画像、答题记录、错题记录和复习 session。
+- `scripts/`: 初始化、校验、统计和索引脚本。
+- `docs/`: 系统设计、智能体设计和演示流程。
+- `tests/`: 软件框架测试。
+
 ## Multi-agent Review Prototype
 
 This repository now includes a runnable multi-agent final-review assistant for the data-structure knowledge base.

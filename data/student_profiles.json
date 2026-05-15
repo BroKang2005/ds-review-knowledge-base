@@ -1,0 +1,11 @@
+{
+  "demo_student": {
+    "student_id": "demo_student",
+    "learned_concepts": [],
+    "weak_concepts": [],
+    "wrong_questions": [],
+    "answer_history": [],
+    "current_goal": "期末复习数据结构"
+  }
+}
+
